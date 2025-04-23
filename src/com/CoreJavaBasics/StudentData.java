@@ -3,7 +3,7 @@ package com.CoreJavaBasics;
 public class StudentData 
 {
 
-	//data declaration
+	//data declaration-instance
 	int id;
 	String name;
 	
