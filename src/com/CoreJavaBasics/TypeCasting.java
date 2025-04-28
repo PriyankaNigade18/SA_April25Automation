@@ -61,7 +61,48 @@ public class TypeCasting {
 		
 		
 		System.out.println("long to float conversion: "+f2);
-
+		
+		System.out.println("--------------------Explicit Casting----------------");
+		//large size data----->small size data
+		//double-->float--->long--->int-->short-->byte
+		
+		double d2=567899.78674545;//8byte
+		System.out.println("double data is: "+d2);
+		int a1=(int) d2;//Type mismatch: cannot convert from double to int
+		System.out.println("double to int conversion: "+a1);
+		
+		
+		int a2=120;//4byte
+		//Type mismatch: cannot convert from int to char
+		char c3=(char)a2;//2byte
+		System.out.println("int 120 to character type: "+c3);//x
+		
+		
+		long l4=877655443322212L;
+		//Type mismatch: cannot convert from int to char
+		int a3=(int)l4;
+		System.out.println("long data to int: "+a3);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
