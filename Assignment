@@ -7,4 +7,12 @@ Create Employee class with two variable empId,empName and
 display details of 5 employees
 
 
+Assignment2:Type Casting 
+
+declare primitive data (int,double,float,long,boolean,char) and convert it into Object
+
+declare Object(Integer,Float,Double,Long,Boolean,Character) and convert into primitive
+
+
+
 
