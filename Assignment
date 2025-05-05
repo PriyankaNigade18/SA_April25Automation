@@ -3,15 +3,45 @@
 
 
 Assignment1:
+===================
 Create Employee class with two variable empId,empName and 
 display details of 5 employees
 
 
 Assignment2:Type Casting 
+================================
 
 declare primitive data (int,double,float,long,boolean,char) and convert it into Object
 
 declare Object(Integer,Float,Double,Long,Boolean,Character) and convert into primitive
+
+
+Assignment 3:Compile time parameter passing without return
+==============================================================
+Design Calculator class and declare 5 methods pass parameter and display 
+result from the method
+
+add(),sub(),mul(),div(),mod()
+
+
+
+Assignment 4:Compile time parameter passing with return keyword
+==============================================================
+Design Calculator class and declare 5 methods pass parameter and display 
+result from the method with return keyword
+
+add(),sub(),mul(),div(),mod()
+
+Assignment5:Scanner class
+=============================
+Accept details from user like fname,lname,gender char,age,phno and pass it to the 
+method userDetails() and display result from method.
+
+
+
+
+
+
 
 
 
