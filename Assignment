@@ -32,7 +32,7 @@ result from the method with return keyword
 
 add(),sub(),mul(),div(),mod()
 
-Assignment5:Scanner class
+Assignment5:Scanner class(Run time parameter passing)
 =============================
 Accept details from user like fname,lname,gender char,age,phno and pass it to the 
 method userDetails() and display result from method.
