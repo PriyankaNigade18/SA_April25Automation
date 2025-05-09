@@ -38,8 +38,13 @@ Accept details from user like fname,lname,gender char,age,phno and pass it to th
 method userDetails() and display result from method.
 
 
+Assignment6:(Conditional statements)
+================================================
+a. Accept number from user and test that number is positive or negative
+b. Accept a number and test that number is even or odd (num%2==0)=Even
+c. Accept 4 numbers from user and test greater number
 
-
+String scenario: Next session topic
 
 
 
