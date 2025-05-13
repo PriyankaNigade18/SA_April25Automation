@@ -6,6 +6,8 @@ public class SwitchCaseDemo {
 
 	public static void main(String[] args)
 	{
+		
+			
 		// ladder if
 		
 		Scanner sc=new Scanner(System.in);
@@ -13,6 +15,20 @@ public class SwitchCaseDemo {
 		char ch=sc.nextLine().charAt(0);
 		
 		
+		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+		{
+			System.out.println(ch+" is vowel");
+		}
+		else
+		{
+			System.out.println(ch+" is an alphabet");
+		}
+		
+		
+		
+		
+		
+		/*
 		//Applicable for Key with value: not applicable for grading mechanism
 		switch (ch)
 		{
