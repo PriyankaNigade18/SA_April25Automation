@@ -57,7 +57,15 @@ Assignment 8:Loops
 5!=5*4*3*2*1
 	=120
 	
-W.A.P to reverse a number
+2. accept number from user and test it is number is palindrom
+	
+	
+3. accept number from user and test it is number is Armstrong number(153)
+	
+	
+
+//String class
+
 W.A.P to reverse a string	
 
 
