@@ -70,7 +70,7 @@ public class LoopDemo {
 				i++;
 			}
 		
-		
+				
 			System.out.println("******************");
 
 		//Interview question:By default condition is always true: infinite
@@ -109,6 +109,9 @@ public class LoopDemo {
 				
 			}
 			
+			System.out.println("**************************");
+
+					
 			System.out.println("Reverse number is: "+res);
 			
 			
@@ -135,6 +138,21 @@ public class LoopDemo {
 				System.out.println(n1+" is not a prime number");
 				
 			}
+			
+			
+			System.out.println("****************************************");
+			
+			//do-while: Exit control loop (one time execution)
+			
+			int j=1;
+			
+			do
+			{
+				System.out.println("Hello");
+				j++;
+			}while(j==5);
+			
+			
 			
 			
 			
