@@ -48,6 +48,13 @@ public class SingleDimensionArray {
 		{
 			System.out.println(sid[i]);
 		}
+		System.out.println("*******Iteration with for-each loop******");
+		
+		for(int i:sid)
+		{
+			System.out.println(i);
+		}
+
 		
 		System.out.println("***************************");
 		
@@ -70,6 +77,12 @@ public class SingleDimensionArray {
 		{
 			System.out.println(marks[i]);
 			
+		}
+		System.out.println("*******Iteration with for-each loop******");
+
+		for(double i:marks)
+		{
+			System.out.println(i);
 		}
 		
 		//sum of elements of array
@@ -98,6 +111,12 @@ public class SingleDimensionArray {
 		{
 			System.out.println(loc[i]);
 		}
+		System.out.println("*******Iteration with for-each loop******");
+
+		for(String i:loc)
+		{
+			System.out.println(i);
+		}
 		
 		System.out.println("********************************");
 		//real data: Object type
@@ -113,6 +132,53 @@ public class SingleDimensionArray {
 		{
 			System.out.println(empdata[i]);
 		}
+		
+		System.out.println("*******Iteration with for-each loop******");
+
+		for(Object i:empdata)
+		{
+			System.out.println(i);
+		}
+		System.out.println("********************************");
+
+		//Literal way
+		
+		int id[]= {101,201,301,401,501};
+		
+		System.out.println("Size of Array is: "+id.length);//5
+		
+		System.out.println(id[3]);//401
+		
+		//System.out.println(id[9]);//ArrayIndexOutOfBoundsException
+		
+		for(int i=0;i<id.length;i++)
+		{
+			System.out.println(id[i]);
+		}
+		
+		System.out.println("*******Iteration with for-each loop******");
+
+		
+		for(int i:id)
+		{
+			System.out.println(i);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
