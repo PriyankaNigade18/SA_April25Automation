@@ -175,6 +175,103 @@ public class StringMethods {
 			}
 		}
 		
+		System.out.println("*************************");
+		
+		//toCharArray(): 
+		
+		String ss8="Testing";
+		char arr1[]=ss8.toCharArray();
+		
+		for(char i:arr1)
+		{
+			System.out.println(i);
+		}
+		
+		
+		System.out.println("*************************");
+
+		
+		/*
+		 * String class
+		 * ----------------
+		 * Immutable class 
+		 * -literal and new keyword
+		 * 
+		 * StringBuffer(before java 1.5)
+		 * ---------------------
+		 * Mutable
+		 * -new keyword
+		 * Synchronize(at a time class handle one process)
+		 * 
+		 * StringBuilder
+		 * ----------------------
+		 * Mutable
+		 * -new Keyword
+		 * -Non Synchronize class
+		 * 
+		 */
+		
+		//How to reverse string using method
+		StringBuilder br=new StringBuilder("Hello");
+		br.append(1234);
+		System.out.println(br);//Hello1234
+		
+		br.reverse();
+		System.out.println(br);
+		
+		//How to reverse String without method
+		
+		String ss9="Java selenium";
+		String ans="";
+		
+		for(int i=ss9.length()-1;i>=0;i--)
+		{
+			ans=ans+ss9.charAt(i);
+		}
+		
+		
+		System.out.println("Reverse string of "+ss9+" is: "+ans);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
