@@ -26,7 +26,7 @@ import java.util.Scanner;
 public class HowToReadInputFromUser
 {
 
-	public static void main(String[] args) throws IOException
+	public static void main(String[] args) 
 	{
 		
 		//Scanner class
