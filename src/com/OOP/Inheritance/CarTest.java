@@ -17,6 +17,7 @@ public class CarTest {
 		c1.refule();//individual
 		c1.stop();//individual
 		c1.breakFeature();
+		c1.price();//2L
 		
 		
 		System.out.println("Child class ref and child class object");
@@ -27,6 +28,7 @@ public class CarTest {
 		b1.refule();//inherited
 		b1.stop();//inherited
 		b1.breakFeature();
+		b1.price();//50L
 		
 		System.out.println("*****************");
 		//child audi
@@ -36,6 +38,7 @@ public class CarTest {
 		a1.refule();//inherited
 		a1.stop();//inherited
 		a1.breakFeature();
+		a1.price();//40L
 		
 		
 		System.out.println("parent class ref and child class object");
@@ -45,6 +48,7 @@ public class CarTest {
 		c2.refule();//individual
 		c2.stop();//individual
 		c2.breakFeature();
+		c2.price();//50L
 		
 		System.out.println("***************");
 		Car c3=new Audi();
@@ -52,7 +56,7 @@ public class CarTest {
 		c3.refule();//individual
 		c3.stop();//individual
 		c3.breakFeature();
-
+		c3.price();//40L
 		
 		Vehical v2=new Car();
 		v2.breakFeature();
