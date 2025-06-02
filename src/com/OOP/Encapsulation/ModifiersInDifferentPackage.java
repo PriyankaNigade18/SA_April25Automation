@@ -2,7 +2,7 @@ package com.OOP.Encapsulation;
 
 import com.OOP.Inheritance.AccessModifierMain;
 
-public class ModifiersInDifferentPackage  extends AccessModifierMain{
+public class ModifiersInDifferentPackage extends AccessModifierMain{
 
 	public static void main(String[] args) 
 	{
