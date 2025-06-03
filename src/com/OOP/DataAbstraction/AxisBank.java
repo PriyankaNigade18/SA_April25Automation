@@ -14,8 +14,8 @@ public class AxisBank implements RBIBank{
 	}
 
 	@Override
-	public void deposite() {
-		System.out.println("Axis......deposite()");
+	public void deposit() {
+		System.out.println("Axis......deposit()");
 		
 	}
 

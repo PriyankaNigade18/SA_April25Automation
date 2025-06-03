@@ -17,7 +17,7 @@ public interface RBIBank
 	int amount=100;
 	
 	void withdraw();
-	void deposite();
+	void deposit();
 	void rateOfInterest();
 	
 	

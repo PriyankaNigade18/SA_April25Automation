@@ -17,8 +17,8 @@ public class HDFC implements RBIBank
 	}
 
 	@Override
-	public void deposite() {
-		System.out.println("HDFC......deposite()");
+	public void deposit() {
+		System.out.println("HDFC......deposit()");
 	}
 
 	@Override
