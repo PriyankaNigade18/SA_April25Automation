@@ -1,0 +1,7 @@
+
+Assignment1:
+-------------------
+Write automation script to launch https://automationplayground.com/crm/
+ app validate 1.title should be Customer Service
+		 	  2.app url includes crm
+		

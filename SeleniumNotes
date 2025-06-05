@@ -1,0 +1,129 @@
+
+
+Selenium WebDriver
+------------------
+Selenium WebDriver is an interface
+Selenium WebDriver is an API for webui automation test
+---------------------------------------------------------------
+Selenium setup
+------------
+1.Using java project
+--------------------------
+1.create new java project
+2.download selenium java library(client library) https://www.selenium.dev
+3.right click on project-->Build path--->configure build path--->library-->
+click on class path--->add external library-->select the file and add
+4.file will be attached in java project under reference libraries
+
+2.Using Maven Project
+-------------------------
+What is Maven
+--------------------
+Maven is build management and project management tool/framework
+Maven followed by developers and testers both
+
+Maven project have its configuration file: POM.xml
+-------------------------------------------------
+POM stands for Project Object Model
+this is file which is completed configuration for maven project
+
+all required dependecies and plugins are part of pom.xml file
+
+--------------------------------
+What is Dependency
+-----------------------
+It ia library/executable file
+
+POM structure
+-------------------
+<project>
+
+<dependencies>
+
+<dependecy>Selenium java</dependency>
+<dependecy>testng</dependency>
+<dependecy>cucumber</dependency>
+
+</dependencies>
+
+</project>
+
+------------------------------------
+Maven is developed by Apache foundation
+--------------------------------
+Repository(Storage)
+----------------------
+Maven support two reporsitories
+-------------
+1.Local repo
+---------------------
+In local machine-->user-->.m2 folder
+
+2.Remote/share repo
+-------------------------
+mvnrepository.com
+
+=========================================
+Selenium Exception
+----------------------
+For Wrong URl: InvalidArgumentException: invalid argument
+
+
+
+
+===============================================
+WebDriver Browser Based commands/methods
+---------------------------------------
+1.get(url): open application
+2.getTitle(): get the title of current page
+3.getCurrentUrl(): get the current url of page
+4.getPageSource(): get the page source
+
+Window handling
+----------------
+5.getWindowHandle()
+6.getWindowHandles()
+
+7.close(): close current open window
+8.quit(): close all open windows by selenium
+
+Navigation Commands
+-----------------------
+
+
+
+WebElement
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
