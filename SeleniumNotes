@@ -89,6 +89,24 @@ Window handling
 
 Navigation Commands
 -----------------------
+Selenium provided Navigation ineterface 
+
+1.to(url): Navigate to any other application
+-----------------------
+driver.navigate().to(url);
+
+2.back()
+----------------
+driver.navigate().back();
+
+3.forward()
+----------------
+driver.naviagte().forward();
+
+4.refresh(): reload the page
+---------------------------
+driver.navigate().refresh();
+
 
 
 
