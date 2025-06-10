@@ -30,6 +30,7 @@ public class ArrayListDemo2 {
 			a1.add(45);
 			a1.add(null);
 			
+			
 			System.out.println("After inserting elements Is list empty?: "+a1.isEmpty());//false
 			System.out.println(a1);
 			

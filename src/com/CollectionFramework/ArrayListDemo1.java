@@ -32,7 +32,7 @@ public class ArrayListDemo1 {
 		System.out.println(number);
 		
 		ArrayList<String> loc=new ArrayList<String>();
-		
+	
 		
 		ArrayList<Double> marks=new ArrayList<Double>();
 		
