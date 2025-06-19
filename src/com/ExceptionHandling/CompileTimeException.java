@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class CompileTimeException {
 
-	public static void main(String[] args) throws Exception //InterruptedException, IOException
+	public static void main(String[] args) throws InterruptedException, IOException
 	{
 		System.out.println("Program started.......");
 		Thread.sleep(4000);
@@ -21,6 +21,7 @@ public class CompileTimeException {
 		//to reach working directory 1. System.getProperty("user.dir) 2."./"
 		//File f1=new File(System.getProperty("user.dir")+"//config.properties");
 		File f1=new File("./"+"//config.properties");
+		
 		//step2: read as stream
 		FileInputStream fs=new FileInputStream(f1);
 		
