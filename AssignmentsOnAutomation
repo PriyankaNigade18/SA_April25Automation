@@ -5,3 +5,9 @@ Write automation script to launch https://automationplayground.com/crm/
  app validate 1.title should be Customer Service
 		 	  2.app url includes crm
 		
+Assignment2:
+=================
+Automate login for swaglab application 
+validate title and Url 
+
+Url:https://www.saucedemo.com/v1/

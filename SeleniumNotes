@@ -66,7 +66,9 @@ mvnrepository.com
 =========================================
 Selenium Exception
 ----------------------
-For Wrong URl: InvalidArgumentException: invalid argument
+1.For Wrong URl: InvalidArgumentException: invalid argument
+2.For multipleclassname: InvalidSelectorException: Compound class names not permitted
+3.When findElement() fail to identify webelement: NoSuchElementExeception
 
 
 
@@ -108,10 +110,106 @@ driver.naviagte().forward();
 driver.navigate().refresh();
 
 
-
+=============================================================
 
 WebElement
 -----------------
+Every GUI element(textbox,link,button...etc) is called webelement
+
+To Interact these element Selenium provides one interface that is WebElement
+
+1.Identify WebElement from webpage
+2.Perform action on WebElement
+
+How selenium identify any webelement?
+-----------------------------------
+Selenium identify webelement using Locators
+
+what is Locator?
+---------------------
+Locator is address of webelement form that webpage
+
+Selenium support total 8 locators
+--------------------------------
+1.By id (primary)
+2.By name
+3.By className
+4.By linkText
+5.By partialLinkText
+6.By tagName
+
+Dynamic Locators
+-----------------
+7.By cssSelector
+8.By xpath
+
+Selenium 4 version supports relative locators
+======================================
+leftOf(),rightOf(),near(),above(),below()
+=============================================
+
+To Identify WebElement selenium has two methods
+--------------------------------------------
+1.findElement()
+
+2.findElements()
+
+=================================================
+Actions on WebElement
+======================
+textbox,search box--->enter the data/text--->sendKeys("data",Keys.Keyboard action)
+To clear the text---->clear()
+button,link,checkbox,radio--->click ----->click()
+
+
+WebElement Validation Methods
+===============================
+1.isEnabled()
+2.isDisplayed()
+3.isSelected()
+
+
+========================
+How to Automate any Hyper link'
+-----------------------------
+
+<a id="SignIn" href="login.html">Sign In</a>
+							<a>  link text </a>
+							
+1.By linkText(exact match/full text)
+
+driver.finElement(By.linkText("Sign In")).click();
+
+2.By partialLinkText(partial link text)
+
+driver.findElement(By.partialLinkText("In")).click();
+
+---------------------------------
+
+By className
+===================
+<button class="btn btn-default btn-primary">Submit</button>
+
+
+class="btn btn-default btn-primary"
+
+		c1     c2         c3
+		
+	driver.findElement(By.className("btn btn-default btn-primary")).click();	
+InvalidSelectorException: Compound class names not permitted
+
+Solution
+--------------
+1.identify unique classname
+goto finder(inspect window+ctrl+f)
+
+2.do use unique class name in script
+
+driver.findElement(By.className("btn-primary")).click();
+========================================================
+
+
+
 
 
 
