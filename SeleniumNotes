@@ -151,8 +151,19 @@ leftOf(),rightOf(),near(),above(),below()
 To Identify WebElement selenium has two methods
 --------------------------------------------
 1.findElement()
+---------------
+-findElement() identify single webElement
+-this method returns single WebElement interface object
+-if element is not found this method throws exception NoSuchElementException
+
 
 2.findElements()
+------------------
+-findElements() identify multiple similar elements
+-this method return List<WebElement>
+-if element is not found this method return empty list but not exception
+
+
 
 =================================================
 Actions on WebElement
@@ -207,6 +218,62 @@ goto finder(inspect window+ctrl+f)
 
 driver.findElement(By.className("btn-primary")).click();
 ========================================================
+By tagName
+===============
+
+Number of inputboxes
+Number of Links
+Number of images
+
+Synchronization Issue in Selenium
+====================================
+While automation application needs some extra time to load the elements
+
+Whenever there is time mapping issue in between application and tool then you will 
+face synchronization issue in selenium.
+
+
+Selenium support two dynamic waits
+-----------------------
+1.Implicit wait
+------------------
+Implicit wait is global wait 
+Applicable to entire script(all elements)
+add implicit wait always after driver initialize
+
+Syntax:
+=============
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+
+2.Explicit Wait
+----------------
+-Explicit wait is applicable to single webelement only based on validation condition
+
+we can implement Explicit wait using two classes
+-----------------
+1.WebDriverWait class
+2.FluentWait Class
+
+WebDriverWait(c) extends FluentWait(c) implements Wait(I)
+==============================================================
+
+Special WebElement methods
+======================
+1.getDOMAttribute(attribute name)
+----------------------------------
+this method return you attribite value
+
+
+2.getText()
+---------------------------
+- this method get the visible text of element
+- any html inner text also get by this method
+
+
+
+
+
 
 
 

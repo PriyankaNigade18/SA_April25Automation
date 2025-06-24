@@ -11,3 +11,11 @@ Automate login for swaglab application
 validate title and Url 
 
 Url:https://www.saucedemo.com/v1/
+
+
+Assignment3:
+===================
+Automate application and identify number of links print href attribute value
+and text of every link in console.
+test data: https://www.naukri.com/it-jobs?src=gnbjobs_homepage_srch
+
