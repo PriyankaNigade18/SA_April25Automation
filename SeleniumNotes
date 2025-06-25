@@ -270,6 +270,114 @@ this method return you attribite value
 - this method get the visible text of element
 - any html inner text also get by this method
 
+=================================================================
+Dynamic Locators
+-----------------
+1.By cssSelector
+2.By xpath
+
+CssSelector
+=====================
+
+cssSelector is locator to identify webelement based on css property
+cssSelector can travel in one direction(parent node to child node)
+cssSelector is faster than xpath
+
+#SignIn
+
+1.tagname with id
+------------------
+Syntax
+=======
+tagname#id
+
+<a id="SignIn">Sign In</a>
+
+a#SignIn  1 of 1 match
+
+
+2.tagname with attribute
+--------------------------
+Syntax:
+===========
+tagname[attribute='value']
+
+input[placeholder='Enter email']...... 1 of 1 match
+
+3.tagname with className
+----------------------------
+Syntax:
+=============
+tagname.className
+
+<button class="btn btn-default btn-primary" >Submit</button>
+
+button.btn.btn-default.btn-primary   1 of 1 match
+
+or
+
+button.btn-primary   1 of 1 match
+
+
+
+4.tagname witn id,classname and attribute
+--------------------------------------------
+Syntax
+==========
+tagname#id.className[attribute='value']
+
+
+CssSelector with Special symbole
+------------------------------
+$value:endsWith(suffix value)
+---------------------------------
+id="twotabsearchtextbox"
+input[id$='textbox']
+
+^value: startswith(prefix value)
+--------------------------------
+id="twotabsearchtextbox"
+input[id^='twotab'] 1 of 1 match
+
+*value=contains(partial value)
+-------------------------------------
+id="twotabsearchtextbox"
+
+input[id*='searchtext'] 1 of 1 match
+================================================
+
+Form parent node to child node
+-----------------------------------
+parent tag>child tagname
+
+cssSelector with indexing
+---------------------------
+nth-child(index)
+
+
+=================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
