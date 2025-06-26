@@ -350,12 +350,96 @@ Form parent node to child node
 -----------------------------------
 parent tag>child tagname
 
+sc-ace17a57-0 sc-63e0c791-1 kTjuIu dRHBZS
+
+ul.dRHBZS>li>a>span
+
+============================================
 cssSelector with indexing
 ---------------------------
 nth-child(index)
-
-
 =================================
+parent tag>child tag:nth-child(index)
+
+=======================================================
+8. By xpath
+====================
+xpath is path of Webelement from any html or xml document
+Xpath identify elements directly form DOM(Document object model)
+Xpath can travel from parent to child and child to Parent
+Xpath supports methods
+Xpath support xpath Axies
+-------------------------------html DOM--------------------
+<html>------------------root node
+<head>
+</head>
+
+<body>
+<input>
+<div>-------------Webelement
+<a>
+<button>
+</body>
+</html>
+
+==========================================================
+Xpath Types
+================
+1.Absolute xpath(Full xpath)
+--------------------
+-Absolute xpathn identify element form the root node
+-Absolute xpath starts with '/'
+
+/html/body/div[2]/div/div/div/div[2]/div/form/div[1]/input
+
+2.Relative xpath(partial xpath)
+--------------------
+-Relative xpath identiy element based on relative property
+-Relative xpath starts with '//'
+
+//*[@id="input-email"]
+
+* any tag 
+
+Syntax:
+==============
+//tagname[@attribute='value']
+
+==========================================================
+
+Xpath with Operators
+
+
+Xpath with indexing
+
+
+Xpath Methods
+
+
+Xpath Axies
+
+
+=============================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
