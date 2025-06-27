@@ -394,7 +394,7 @@ Xpath Types
 
 2.Relative xpath(partial xpath)
 --------------------
--Relative xpath identiy element based on relative property
+-Relative xpath identify element based on relative property
 -Relative xpath starts with '//'
 
 //*[@id="input-email"]
@@ -406,15 +406,69 @@ Syntax:
 //tagname[@attribute='value']
 
 ==========================================================
-
 Xpath with Operators
+========================
+1.and
+---------
+Syntax:
+==========
+//tagname[@attribute1='value' and @attribute2='value']
 
 
-Xpath with indexing
+2.or
+----------
+Syntax:
+==========
+//tagname[@attribute1='value' Or @attribute2='value']
 
+----------------------------------
+Xpath with indexing and position()
+===================================
+Syntax:
+-----------
+(xpath)[index]
 
+or
+
+(xpath)[position()=index]
+
+==============================================
 Xpath Methods
+==============================
+1.text()
+---------
+Syntax:
+=======
+//tagname[text()='text']
 
+2.normalize-space()
+---------------------
+Syntax:
+=======
+//tagname[normalize-space()='text']
+
+3.contains(): partial match
+-------------------
+Syntax:
+=======
+//tagname[contains(@attribute,'partail value')]
+
+OR
+
+//tagname[contains(text(),'partial text')]
+//tagname[contains(normalize-space(),'partial text')]
+
+4.starts-with():prefix value
+------------------
+Syntax:
+=======
+//tagname[starts-with(@attribute,'partail value')]
+
+OR
+
+//tagname[starts-with(text(),'partial text')]
+//tagname[starts-with(normalize-space(),'partial text')]
+===============================================================
 
 Xpath Axies
 
