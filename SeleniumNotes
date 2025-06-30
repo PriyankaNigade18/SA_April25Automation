@@ -435,14 +435,20 @@ or
 ==============================================
 Xpath Methods
 ==============================
-1.text()
----------
+1.text(): visible text
+--------------------------
+based on visible text we can identify element but text()
+will not ignore white space before and after text
+
 Syntax:
 =======
 //tagname[text()='text']
 
-2.normalize-space()
----------------------
+2.normalize-space():visible text
+------------------------------------
+Identify webelement based on visible text and it will ignore white space
+like trim() from string 
+
 Syntax:
 =======
 //tagname[normalize-space()='text']
@@ -458,11 +464,19 @@ OR
 //tagname[contains(text(),'partial text')]
 //tagname[contains(normalize-space(),'partial text')]
 
+
+id="twotabsearchtextbox"
+
+//input[contains(@id,'searchtext')]
+
+
+
+
 4.starts-with():prefix value
 ------------------
 Syntax:
 =======
-//tagname[starts-with(@attribute,'partail value')]
+//tagname[starts-with(@attribute,'partail prefix value')]
 
 OR
 
@@ -470,11 +484,23 @@ OR
 //tagname[starts-with(normalize-space(),'partial text')]
 ===============================================================
 
-Xpath Axies
+Common exception
+======================
+StaleElementReferenceException: stale element reference: stale element not found
 
+When page get refresh and element not loaded properly inside DOM
+you will get this exception which state that element is not found
+
+========================================================
+
+Xpath Axies
+===============
 
 =============================================================
+Relative locators
+==================
 
+=============================================================
 
 
 
