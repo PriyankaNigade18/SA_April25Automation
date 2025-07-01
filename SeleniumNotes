@@ -70,8 +70,12 @@ Selenium Exception
 2.For multipleclassname: InvalidSelectorException: Compound class names not permitted
 3.When findElement() fail to identify webelement: NoSuchElementExeception
 
+Common exception
+======================
+StaleElementReferenceException: stale element reference: stale element not found
 
-
+When page get refresh and element not loaded properly inside DOM
+you will get this exception which state that element is not found
 
 ===============================================
 WebDriver Browser Based commands/methods
@@ -483,19 +487,49 @@ OR
 //tagname[starts-with(text(),'partial text')]
 //tagname[starts-with(normalize-space(),'partial text')]
 ===============================================================
-
-Common exception
-======================
-StaleElementReferenceException: stale element reference: stale element not found
-
-When page get refresh and element not loaded properly inside DOM
-you will get this exception which state that element is not found
-
-========================================================
-
 Xpath Axies
 ===============
+1.ancestor(grand parent)
+==============
+Syntax:
+--------------
+//tagname[@attribute='value']//ancestor::tagname of ancestor node
 
+2.Parent
+===============
+Syntax:
+----------
+//tagname[@attribute='value']//parent::tagname of parent node
+
+3.Child
+===========
+Syntax:
+----------
+//tagname[@attribute='value']//child::tagname of child node
+
+4.Following
+==================
+Syntax:
+----------
+//tagname[@attribute='value']//following::tagname of following node
+
+5.Follwing-sibling
+=======================
+Syntax:
+----------
+//tagname[@attribute='value']//following-sibling::tagname of following sibling node
+
+6.preceding
+=====================
+Syntax:
+----------
+//tagname[@attribute='value']//preceding::tagname of preceding node
+
+7.preceding-sibling
+==========================
+Syntax:
+----------
+//tagname[@attribute='value']//preceding-sibling::tagname of preceding sibling node
 =============================================================
 Relative locators
 ==================
