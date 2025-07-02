@@ -531,6 +531,35 @@ Syntax:
 ----------
 //tagname[@attribute='value']//preceding-sibling::tagname of preceding sibling node
 =============================================================
+<tbody>----------------------grand parent
+<tr>---------------------Parent
+ 
+    	 <td>4</td>
+
+          <td>John</td>-----------------element
+
+          <td>Robinson</td>
+
+          <td>jr5527</td>
+ 
+         <td>
+              <a href="user.html"><i class="icon-pencil"></i></a>
+              <a role="button" href="#myModal" data-toggle="modal"><i class="icon-remove"></i></a>
+          </td>
+
+        </tr>
+</tbody>
+==============================
+which tag is parent for John:tr
+Which tag is grand parent for John: tbody
+How many child are there for tr[4]: 5
+for row 4 how many following siblings for John
+
+
+
+
+
+
 Relative locators
 ==================
 
