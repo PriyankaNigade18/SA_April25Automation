@@ -554,16 +554,61 @@ which tag is parent for John:tr
 Which tag is grand parent for John: tbody
 How many child are there for tr[4]: 5
 for row 4 how many following siblings for John
-
-
-
-
-
-
-Relative locators
-==================
-
+=========================================================
+Relative locators(selenium 4)
+==============================
+above()
+below()
+near()
+toLeftOf()
+toRightOf()
 =============================================================
+SelectorHub(ShortCut)
+============================================================
+Dropdown automation
+========================
+
+
+Scenario:
+-----------------
+Window handling
+Alert handling-->authentication popup
+Frame handling
+WebTable Handling
+DatePicker(Calendar)
+
+
+JavaScriptExecutor Interface
+=============================
+get the title
+refresh page
+interactwith element
+scroll the page
+
+
+Explicit Wait
+===================
+
+Special Scenario
+=====================
+how to automate/Identify Broken link
+Shadow DOM
+svg element automation
+
+Frameworks
+===============
+1.TestNg
+2.Cucumber
+
+
+
+
+
+
+
+
+
+
 
 
 

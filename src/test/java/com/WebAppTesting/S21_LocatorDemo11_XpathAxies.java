@@ -33,17 +33,22 @@ public class S21_LocatorDemo11_XpathAxies {
 		
 		//assignment
 		System.out.println("Scenario5: after Ashley get all remaining data count:following");
-
+		int totalData=driver.findElements(By.xpath("//td[text()='Ashley']//following::td")).size();
+		System.out.println("after Ashley all remaining data count is: "+totalData);//23
 		
+			
 		System.out.println("Scenario6: after Ashley get all siblings");
-		
+		System.out.println("Ashley all siblings are: "+driver.findElements(By.xpath("//td[text()='Ashley']//following-sibling::td")).size());
 		
 		System.out.println("Scenario7: Before Ashley get all siblings");
+		System.out.println("Before Ashley all siblings are: "+driver.findElements(By.xpath("//td[text()='Ashley']//preceding-sibling::td")).size());
 		
 		System.out.println("Scenario8: Before Ashley get all rows count");
+		System.out.println("Before Ashley row count is: "+driver.findElements(By.xpath("//td[text()='Ashley']//preceding::tr")).size());//2
+		
 		
 		System.out.println("Scenario8: Before Ashley get all data count");
-		
+		System.out.println("Before Ashley all data count is: "+driver.findElements(By.xpath("//td[text()='Ashley']//preceding::td")).size());
 		
 		
 		
