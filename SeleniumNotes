@@ -567,7 +567,32 @@ SelectorHub(ShortCut)
 ============================================================
 Dropdown automation
 ========================
+1.Select tag based dropdown
+------------------------
+Selenium provides Select class
+1.identify dropdown address
+2.provide address into constructor of Select class
+3.use methods to automate dorpdown
 
+Scenario:
+---------------
+Test for dropdown is supported multiple selection or not:isMultiple():boolean
+
+Test for select any option from dropdown
+1.selectByIndex(int)
+2.selectByVisibleText(string)
+3.selectByValue(String)
+4.selectBycontainsVisibileText(String)
+
+Test for count all options from dropdown and select any one option
+Total options from dropdown: getOptions()
+
+
+2.Bootstrap/Javascript 
+----------------------
+
+
+-------------------------------------------
 
 Scenario:
 -----------------

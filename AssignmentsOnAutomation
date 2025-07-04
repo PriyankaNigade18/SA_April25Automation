@@ -38,3 +38,9 @@ Assignment 6:
 Write automation script to launch Amazon application and print all footer list in console
 https://www.amazon.in/
 
+Assignment 7:
+===================
+Write Automation script to fill the form
+https://register.rediff.com/register/register.php?FormName=user_details
+automate input boxes,checkboxes,dropdown
+
