@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.DropdownAutomation.S24_SelectBasedDropdown_AmazonApp">
+      <class name="com.WebTesting.WindowHandling.S30_MultipleWindowHandling">
         <methods>
-          <include name="testDropdown"/>
+          <include name="testWindowHandling"/>
         </methods>
-      </class> <!-- com.WebTesting.DropdownAutomation.S24_SelectBasedDropdown_AmazonApp -->
+      </class> <!-- com.WebTesting.WindowHandling.S30_MultipleWindowHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

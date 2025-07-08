@@ -587,16 +587,30 @@ Test for select any option from dropdown
 Test for count all options from dropdown and select any one option
 Total options from dropdown: getOptions()
 
-
-2.Bootstrap/Javascript 
-----------------------
-
-
+2.Bootstrap/Javascript /AutoSuggestion
+-----------------------------------------
+xpath
 -------------------------------------------
 
 Scenario:
 -----------------
 Window handling
+================
+How to automate/interact with multiple window
+---------------------
+getWindowHandle(): current window handle(session id)
+getWindowsHandles(): all windows handle
+switchTo()
+
+Selenium 4: How to open new tab/new window
+----------------------
+newWindow()
+
+WebDriver driverTabRef=driver.switchTo().newWindow(WindowType.TAB);
+
+WebDriver driverWindowRef=driver.switchTo().newWindow(WindowType.WINDOW);
+=================================================
+
 Alert handling-->authentication popup
 Frame handling
 WebTable Handling

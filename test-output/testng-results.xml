@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-04T08:38:55 IST" name="Default suite" finished-at="2025-07-04T08:39:02 IST" duration-ms="6640">
+  <suite started-at="2025-07-08T08:23:46 IST" name="Default suite" finished-at="2025-07-08T08:23:50 IST" duration-ms="4169">
     <groups>
     </groups>
-    <test started-at="2025-07-04T08:38:55 IST" name="Default test" finished-at="2025-07-04T08:39:02 IST" duration-ms="6640">
-      <class name="com.WebTesting.DropdownAutomation.S27_DropdownAllOptions">
-        <test-method signature="f()[pri:0, instance:com.WebTesting.DropdownAutomation.S27_DropdownAllOptions@351d00c0]" started-at="2025-07-04T08:38:55 IST" name="f" finished-at="2025-07-04T08:39:02 IST" duration-ms="6600" status="PASS">
+    <test started-at="2025-07-08T08:23:46 IST" name="Default test" finished-at="2025-07-08T08:23:50 IST" duration-ms="4169">
+      <class name="com.WebTesting.WindowHandling.NewWindowMethodInSelenium">
+        <test-method signature="testMethodforNewTabWindow()[pri:0, instance:com.WebTesting.WindowHandling.NewWindowMethodInSelenium@689604d9]" started-at="2025-07-08T08:23:46 IST" name="testMethodforNewTabWindow" finished-at="2025-07-08T08:23:50 IST" duration-ms="4124" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- com.WebTesting.DropdownAutomation.S27_DropdownAllOptions -->
+        </test-method> <!-- testMethodforNewTabWindow -->
+      </class> <!-- com.WebTesting.WindowHandling.NewWindowMethodInSelenium -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
