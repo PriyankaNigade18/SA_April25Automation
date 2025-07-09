@@ -69,6 +69,7 @@ Selenium Exception
 1.For Wrong URl: InvalidArgumentException: invalid argument
 2.For multipleclassname: InvalidSelectorException: Compound class names not permitted
 3.When findElement() fail to identify webelement: NoSuchElementExeception
+4.When we ignore/miss to handle any alert:UnhandledAlertException: unexpected alert open
 
 Common exception
 ======================
@@ -612,10 +613,44 @@ WebDriver driverWindowRef=driver.switchTo().newWindow(WindowType.WINDOW);
 =================================================
 
 Alert handling-->authentication popup
+============================================
+Alert window/popup coming from application/browser
+
+To switch to the alert and then handle it
+----------------------------------------------
+Alert obj=driver.switchTo().alert();
+
+To handle alert Selenium Support Alert interface
+
+Types Of Alerts
+------------------
+1.Simple Alert
+2.Confirmation Alert
+3.Prompt Alert
+
+Alert interface has 4 methods
+--------------------------
+1.To get the text of alert: getText()
+2.To simulate action of OK: accept()
+3.To simulate action cancel: dismiss()
+4.To enter prompt : sendKeys()
+
+
+How to automate any authentication popup
+------------------------------------------------
+pass your credentials into url
+Syntax:
+===========
+https://username:password@the-internet.herokuapp.com/basic_auth
+==============================================================
 Frame handling
+==============
+
+
+
+
 WebTable Handling
 DatePicker(Calendar)
-
 
 JavaScriptExecutor Interface
 =============================
@@ -633,6 +668,14 @@ Special Scenario
 how to automate/Identify Broken link
 Shadow DOM
 svg element automation
+
+
+Actions class
+---------------------
+
+
+
+
 
 Frameworks
 ===============
