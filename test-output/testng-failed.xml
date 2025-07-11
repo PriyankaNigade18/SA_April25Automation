@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting_Alert_Frame.S35_SampleRunForAlertVsAuthenticatioPopup">
+      <class name="com.WebTesting_Alert_Frame.S37_NestedFrameDemo">
         <methods>
-          <include name="testAuthPopup"/>
+          <include name="testNestedFrame"/>
         </methods>
-      </class> <!-- com.WebTesting_Alert_Frame.S35_SampleRunForAlertVsAuthenticatioPopup -->
+      </class> <!-- com.WebTesting_Alert_Frame.S37_NestedFrameDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

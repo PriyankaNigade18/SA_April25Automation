@@ -645,6 +645,21 @@ https://username:password@the-internet.herokuapp.com/basic_auth
 ==============================================================
 Frame handling
 ==============
+one html webpage in embedded into another html page that is frame
+<frame></frame>
+<iframe></iframe>: inline frame
+
+Single Frame
+Nested Frame
+
+1.switch to the frame to handle the webelement
+----------------------------------
+driver.switchTo().frame(index)
+driver.switchTo().frame(id/name)
+driver.switchTo().frame(WebElement)
+
+parentFrame()
+defaultContent()
 
 
 
