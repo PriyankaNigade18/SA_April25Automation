@@ -660,11 +660,23 @@ driver.switchTo().frame(WebElement)
 
 parentFrame()
 defaultContent()
-
-
-
-
+====================================================
 WebTable Handling
+=================
+Scenario
+============
+Number of headings
+Number of rows
+Number columns
+Any specific column
+Any specific row
+get the all data from table
+
+1.static table
+2.Dynamic table
+3.pegination table
+
+
 DatePicker(Calendar)
 
 JavaScriptExecutor Interface
@@ -678,6 +690,13 @@ scroll the page
 Explicit Wait
 ===================
 
+Capabilities
+====================
+
+Actions class
+---------------------
+
+
 Special Scenario
 =====================
 how to automate/Identify Broken link
@@ -685,8 +704,7 @@ Shadow DOM
 svg element automation
 
 
-Actions class
----------------------
+
 
 
 
