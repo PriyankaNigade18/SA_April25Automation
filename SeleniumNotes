@@ -674,18 +674,18 @@ get the all data from table
 
 1.static table
 2.Dynamic table
-3.pegination table
-
-
+3.pagination table
+===============================
 DatePicker(Calendar)
 
+Locator
+============================
 JavaScriptExecutor Interface
 =============================
 get the title
 refresh page
-interactwith element
+interact with element
 scroll the page
-
 
 Explicit Wait
 ===================
