@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting_Alert_Frame.S37_NestedFrameDemo">
+      <class name="com.WebTesting.JavascriptExecutor.JavaScriptExecutor_BasicFeatures">
         <methods>
-          <include name="testNestedFrame"/>
+          <include name="testBasicFeatures"/>
         </methods>
-      </class> <!-- com.WebTesting_Alert_Frame.S37_NestedFrameDemo -->
+      </class> <!-- com.WebTesting.JavascriptExecutor.JavaScriptExecutor_BasicFeatures -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

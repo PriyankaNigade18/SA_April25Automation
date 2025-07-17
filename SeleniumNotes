@@ -680,12 +680,14 @@ DatePicker(Calendar)
 
 Locator
 ============================
+
 JavaScriptExecutor Interface
 =============================
-get the title
-refresh page
-interact with element
-scroll the page
+-get the title
+-refresh page
+-interact with element
+-scroll the page
+-hidden element
 
 Explicit Wait
 ===================
