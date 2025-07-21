@@ -689,11 +689,69 @@ JavaScriptExecutor Interface
 -scroll the page
 -hidden element
 
-Explicit Wait
-===================
+
+Synchronization Issue in Selenium
+====================================
+While automation application needs some extra time to load the elements
+
+Whenever there is time mapping issue in between application and tool then you will 
+face synchronization issue in selenium.
+
+Default timeout
+================
+timeouts={implicit=0, pageLoad=300000, script=30000},
+
+PageLoadTimeout: 5mins
+
+Implicit Wait: 0
+
+ScriptTimeOut:30sec
+
+
+Selenium support two dynamic waits
+-----------------------
+1.Implicit wait
+------------------
+Implicit wait is global wait 
+Applicable to entire script(all elements)
+add implicit wait always after driver initialize
+
+Syntax:
+=============
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+
+2.Explicit Wait
+----------------
+-Explicit wait is applicable to single webelement only based on validation condition
+
+we can implement Explicit wait using two classes
+-----------------
+1.WebDriverWait class
+2.FluentWait Class
+
+WebDriverWait(c) extends FluentWait(c) implements Wait(I)
+==============================================================
 
 Capabilities
 ====================
+Capabilities are options that you can use to customize and configure a ChromeDriver session. 
+
+https://developer.chrome.com/docs/chromedriver/capabilities
+
+Browser  --->classes
+---------------------
+Chrome     ChromeOptions
+Edge       EdgeOptions
+Firefox    FirefoxOptions
+
+
+-customize capabilities
+-headless browser testing
+-file upload
+-download file
+-incognito mode
+
 
 Actions class
 ---------------------

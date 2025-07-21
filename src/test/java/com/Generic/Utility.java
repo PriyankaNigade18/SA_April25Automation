@@ -2,6 +2,7 @@ package com.Generic;
 
 import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -67,5 +68,32 @@ public class Utility
 			  }
 		  }
 		
+	}
+	
+	//scroll
+	
+	public static void scrollDown(WebDriver driver)
+	{
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		  
+		  //scrolldown
+		js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+	}
+	
+	
+	public static void scrollUp(WebDriver driver)
+	{
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		  
+		  //scrollup
+		js.executeScript("window.scrollTo(document.body.scrollHeight,0)");
+	}
+	
+	
+	
+	public static void scrollUptoElement(WebDriver driver,WebElement ele)
+	{
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		 js.executeScript("arguments[0].scrollIntoView(true);",ele);
 	}
 }

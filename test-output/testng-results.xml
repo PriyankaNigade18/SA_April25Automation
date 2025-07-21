@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-17T08:25:25 IST" name="Default suite" finished-at="2025-07-17T08:25:35 IST" duration-ms="10011">
+  <suite started-at="2025-07-21T08:37:43 IST" name="Default suite" finished-at="2025-07-21T08:37:50 IST" duration-ms="7458">
     <groups>
     </groups>
-    <test started-at="2025-07-17T08:25:25 IST" name="Default test" finished-at="2025-07-17T08:25:35 IST" duration-ms="10011">
-      <class name="com.WebTesting.JavascriptExecutor.S45_JavascriptExecutor_Scroll">
-        <test-method signature="testScroll()[pri:0, instance:com.WebTesting.JavascriptExecutor.S45_JavascriptExecutor_Scroll@2a3b5b47]" started-at="2025-07-17T08:25:25 IST" name="testScroll" finished-at="2025-07-17T08:25:35 IST" duration-ms="9934" status="PASS">
+    <test started-at="2025-07-21T08:37:43 IST" name="Default test" finished-at="2025-07-21T08:37:50 IST" duration-ms="7458">
+      <class name="com.WebTesting.WaitsInSelenium.S48_InterviewQuestion">
+        <test-method signature="testXpath()[pri:0, instance:com.WebTesting.WaitsInSelenium.S48_InterviewQuestion@689604d9]" started-at="2025-07-21T08:37:43 IST" name="testXpath" finished-at="2025-07-21T08:37:50 IST" duration-ms="7406" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testScroll -->
-      </class> <!-- com.WebTesting.JavascriptExecutor.S45_JavascriptExecutor_Scroll -->
+        </test-method> <!-- testXpath -->
+      </class> <!-- com.WebTesting.WaitsInSelenium.S48_InterviewQuestion -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
