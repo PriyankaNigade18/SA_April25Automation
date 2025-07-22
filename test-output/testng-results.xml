@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-21T08:37:43 IST" name="Default suite" finished-at="2025-07-21T08:37:50 IST" duration-ms="7458">
+  <suite started-at="2025-07-22T08:33:01 IST" name="Default suite" finished-at="2025-07-22T08:33:10 IST" duration-ms="9082">
     <groups>
     </groups>
-    <test started-at="2025-07-21T08:37:43 IST" name="Default test" finished-at="2025-07-21T08:37:50 IST" duration-ms="7458">
-      <class name="com.WebTesting.WaitsInSelenium.S48_InterviewQuestion">
-        <test-method signature="testXpath()[pri:0, instance:com.WebTesting.WaitsInSelenium.S48_InterviewQuestion@689604d9]" started-at="2025-07-21T08:37:43 IST" name="testXpath" finished-at="2025-07-21T08:37:50 IST" duration-ms="7406" status="PASS">
+    <test started-at="2025-07-22T08:33:01 IST" name="Default test" finished-at="2025-07-22T08:33:10 IST" duration-ms="9082">
+      <class name="com.WebTesting.WaitsInSelenium.S50_DynamicWaitUsingWebDriverWait">
+        <test-method signature="testWait()[pri:0, instance:com.WebTesting.WaitsInSelenium.S50_DynamicWaitUsingWebDriverWait@351d00c0]" started-at="2025-07-22T08:33:01 IST" name="testWait" finished-at="2025-07-22T08:33:10 IST" duration-ms="9043" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testXpath -->
-      </class> <!-- com.WebTesting.WaitsInSelenium.S48_InterviewQuestion -->
+        </test-method> <!-- testWait -->
+      </class> <!-- com.WebTesting.WaitsInSelenium.S50_DynamicWaitUsingWebDriverWait -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

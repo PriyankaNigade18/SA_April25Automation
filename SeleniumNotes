@@ -752,9 +752,14 @@ Firefox    FirefoxOptions
 -download file
 -incognito mode
 
-
-Actions class
----------------------
+Actions class(Mouse Operation)
+------------------------------
+MouseOver
+doubleclick
+rightclick
+drag and drop
+tooltip
+scroll
 
 
 Special Scenario
