@@ -737,7 +737,13 @@ Capabilities
 ====================
 Capabilities are options that you can use to customize and configure a ChromeDriver session. 
 
+Capabilities
+------------------
 https://developer.chrome.com/docs/chromedriver/capabilities
+
+ChromeArguments
+----------------------
+https://peter.sh/experiments/chromium-command-line-switches/
 
 Browser  --->classes
 ---------------------
@@ -745,12 +751,40 @@ Chrome     ChromeOptions
 Edge       EdgeOptions
 Firefox    FirefoxOptions
 
-
 -customize capabilities
--headless browser testing
+
+-Headless browser testing
+----------------------------
+When we run test case without any UI that is Called Headless testing
+
+faster execution
+Regression testing
+
+Selenium 3: HTMLUnitDriver (Ghost Driver)
+-----------------
+Selenium 4: Using capabilities
+
+--headless
+
+-Maximize browser
+------------------------
+start-maximized
+
+-incognito mode/browser
+----------------------
+--incognito
+
+
+-Download file
+---------------------
+
+
+
+
+
 -file upload
--download file
--incognito mode
+
+
 
 Actions class(Mouse Operation)
 ------------------------------

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.WaitsInSelenium.S50_DynamicWaitUsingWebDriverWait">
+      <class name="com.WebTesting.WaitsInSelenium.S51_WaitUsingFluentWaitClass">
         <methods>
           <include name="testWait"/>
         </methods>
-      </class> <!-- com.WebTesting.WaitsInSelenium.S50_DynamicWaitUsingWebDriverWait -->
+      </class> <!-- com.WebTesting.WaitsInSelenium.S51_WaitUsingFluentWaitClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

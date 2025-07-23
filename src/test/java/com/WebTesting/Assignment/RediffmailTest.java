@@ -14,6 +14,11 @@ public class RediffmailTest {
 	  WebDriver driver=new ChromeDriver();
 	  driver.get("https://register.rediff.com/register/register.php?FormName=user_details");
 	  
+	  
+	  //email
+	  driver.findElement(By.xpath("//input[@placeholder='Enter Rediffmail ID']")).sendKeys("priyanka");
+	  
+	  
 	  driver.findElement(By.xpath("//input[@type='checkbox']")).click();
 	  
 	  Thread.sleep(2000);
