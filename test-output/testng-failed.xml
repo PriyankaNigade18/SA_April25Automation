@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.Capabilities.S58_FileUploadUsingRobotClass">
+      <class name="com.WebTesting.MouseOperations.S62_DragAndDropAction">
         <methods>
-          <include name="testFileUpload"/>
+          <include name="testDragandDrop"/>
         </methods>
-      </class> <!-- com.WebTesting.Capabilities.S58_FileUploadUsingRobotClass -->
+      </class> <!-- com.WebTesting.MouseOperations.S62_DragAndDropAction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

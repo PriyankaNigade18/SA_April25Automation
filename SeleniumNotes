@@ -802,8 +802,8 @@ Toolkit.getDefaultToolkit().getSystemClipboard().setContents(sc,null);
 Actions class(Mouse Operation)
 ------------------------------
 MouseOver
-doubleclick
-rightclick
+doubleclick:doubleClick()
+rightclick: contextClick()
 drag and drop
 tooltip
 scroll
