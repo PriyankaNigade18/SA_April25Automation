@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.MouseOperations.S62_DragAndDropAction">
+      <class name="com.WebTesting.SpecialScenario.S69_BrokenLinkAutomation">
         <methods>
-          <include name="testDragandDrop"/>
+          <include name="testBrokenLink"/>
         </methods>
-      </class> <!-- com.WebTesting.MouseOperations.S62_DragAndDropAction -->
+      </class> <!-- com.WebTesting.SpecialScenario.S69_BrokenLinkAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

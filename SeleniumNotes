@@ -801,20 +801,39 @@ Toolkit.getDefaultToolkit().getSystemClipboard().setContents(sc,null);
 
 Actions class(Mouse Operation)
 ------------------------------
-MouseOver
+MouseOver:moveToElement()
 doubleclick:doubleClick()
 rightclick: contextClick()
-drag and drop
-tooltip
-scroll
+drag and drop:dragAndDrop()
+tooltip:
+scroll/slider:clickAndHold() + MoveToElement() 
 
 
 Special Scenario
 =====================
-how to automate/Identify Broken link
-Shadow DOM
-svg element automation
+How to automate/Identify Broken link
+----------------------------------
+The link whose status code is 400 or greater than 400 is called broken link
 
+note:
+-------
+If link contains href attribute then only you can identify whether broken or not
+
+Automate
+----------------
+<a href="url">
+1.link should have href attribute and it should not be empty or null
+
+2.send only for valid href request to the server
+
+3.get the status code and compare is status code is equal and greter than 400
+
+4.update status as link is broken
+
+
+svg element automation
+-------------------------
+Shadow DOM
 
 
 
@@ -825,6 +844,8 @@ Interview for Java + Selenium
 Frameworks
 ===============
 1.TestNg
+==============
+
 2.Cucumber
 
 
