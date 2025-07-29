@@ -830,10 +830,39 @@ Automate
 
 4.update status as link is broken
 
+========================================
 
-svg element automation
+SVG element automation
 -------------------------
+SVG, which stands for Scalable Vector Graphics, is a web-friendly vector image format. 
+
+-SVG element automation is only possible with xpath
+-local-name() or name()
+
+//*[name()='svg']
+==============================================
+
 Shadow DOM
+========================================
+Whenever DOM is loaded inside another DOM is called Shadow dom
+How to automate any shadow element
+----------------------------------
+main document--->shadowHost--->shadow root-->shadowElement
+
+which element is shadow element
+-----------------------------------
+if element is designed with #shadow-root(open) then that element is called shadowelement
+
+Parent element for shadow element is shadow root
+Parent element for shadow root is called shadow host
+
+#shadow-root(close): such element you cant automate
+
+Shadow Dom elements you can automate only with cssSelector
+
+
+
+
 
 
 

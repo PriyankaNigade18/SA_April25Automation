@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.SpecialScenario.S69_BrokenLinkAutomation">
+      <class name="com.WebTesting.SpecialScenario.S72_ShadowDomAutomation">
         <methods>
-          <include name="testBrokenLink"/>
+          <include name="testShadowDoM"/>
         </methods>
-      </class> <!-- com.WebTesting.SpecialScenario.S69_BrokenLinkAutomation -->
+      </class> <!-- com.WebTesting.SpecialScenario.S72_ShadowDomAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class S68_TootipAutomation {
+public class S65_TootipAutomation {
   @Test
   public void testToolTip() 
   {

@@ -14,7 +14,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class S69_BrokenLinkAutomation 
+public class S66_BrokenLinkAutomation 
 {
 	/*1.link should have href attribute and it should not be empty or null
 

@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class S67_ResizeAction {
+public class S64_ResizeAction {
   @Test
   public void testResizeAction() 
   
