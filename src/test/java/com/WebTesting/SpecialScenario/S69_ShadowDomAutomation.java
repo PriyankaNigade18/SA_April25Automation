@@ -43,8 +43,6 @@ public class S69_ShadowDomAutomation {
 	 String text2=root2.findElement(By.cssSelector("#nested_shadow_content")).getText();
 	  System.out.println("Nested dom element text is: "+text2);
 	  
-	  
-
 	  //input box: host1 and root1
 	  
 	  root1.findElement(By.cssSelector("input[type='text']")).sendKeys("Shadow inputbox tested");

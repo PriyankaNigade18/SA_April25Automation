@@ -861,19 +861,93 @@ Parent element for shadow root is called shadow host
 Shadow Dom elements you can automate only with cssSelector
 
 
-
-
-
-
-
 Interview for Java + Selenium
-
 
 
 Frameworks
 ===============
+30-07-2025
+------------------
 1.TestNg
 ==============
+TestNG Arguments
+-------------------
+1.priority
+------------
+All testng test executes in alphabetical order
+
+To set expectation or run test in sequence as expectation use priority argument
+
+----------------------------------
+2.description
+-----------------
+to add description about test
+
+3.invocationCount
+---------------------------
+To run test multiple number time
+
+4.How to disable or ignore any test from current execution
+--------------------------------------------------
+1.using enabled=false
+2.using xml file we can <exclude>test
+<methods>
+      <exclude name="searchTest"></exclude>
+</methods>
+
+
+Assertions In Testng
+----------------------
+
+
+
+5.timeouts
+-------------
+
+
+6.dependsOnMethod()
+------------------------------
+
+7.groups
+------------------
+
+Annotations
+------------------
+
+
+Page Object model
+----------------------
+1.By locator
+2.PageFactory
+
+Using data
+-----------------
+1.data passing using xml
+2.data passing using properties file
+
+Data driver Test
+--------------------
+1.using array
+2.using Apache POI(Excel file)
+
+Hybrid framework design
+
+ 
+DevOps
+------------
+1.Distributed version control
+2.Jenkins
+3.Docker 
+
+Reports
+--------------
+1.ExtentReport
+2.ChainTestReport(Docker)
+
+
+
+
+
 
 2.Cucumber
 
