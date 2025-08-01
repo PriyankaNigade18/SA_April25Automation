@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.SpecialScenario.S72_ShadowDomAutomation">
+      <class name="com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation">
         <methods>
-          <include name="testShadowDoM"/>
+          <include name="testLogin"/>
         </methods>
-      </class> <!-- com.WebTesting.SpecialScenario.S72_ShadowDomAutomation -->
+      </class> <!-- com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

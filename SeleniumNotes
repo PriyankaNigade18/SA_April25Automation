@@ -898,8 +898,24 @@ To run test multiple number time
 
 Assertions In Testng
 ----------------------
+To validate state of application we use assertion
 
+1.Hard Assertion
+---------------------
+When we apply assertion and if that assertion got fail then execution
+will stop on that line so its called hard assertion
+And assertionError will throw
 
+Assert class with static methods
+
+2.Soft Assertion
+----------------------
+When we apply assertion and if that assertion got fail then execution
+will not stop on that line so its called soft assertion
+And assertionError will throw
+
+SoftAssert class without any static method
+===================================================
 
 5.timeouts
 -------------
