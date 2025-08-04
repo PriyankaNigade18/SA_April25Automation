@@ -1,5 +1,7 @@
 package com.WebTesting.TestNG.Basics;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -34,7 +36,7 @@ public class TestDemo5_Assertion
 	  	 
 	  SoftAssert sf=new SoftAssert();
 	  //sf.assertEquals(a,b,"Test Fail: Numbers are not equal");
-	  sf.assertTrue(a==b);
+	  Assert.assertTrue(a==b);
 	  System.out.println("Test Pass: Numbers are equal");
 	  System.out.println("---------------");
 	  System.out.println("---------------");

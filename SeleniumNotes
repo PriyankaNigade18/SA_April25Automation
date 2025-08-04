@@ -917,18 +917,62 @@ And assertionError will throw
 SoftAssert class without any static method
 ===================================================
 
-5.timeouts
+5.timeOut
 -------------
+The maximum number of milliseconds this test should take. If it hasn't returned after thistime, it will be marked as a FAIL.
 
-
-6.dependsOnMethod()
+6.dependsOnMethods()
 ------------------------------
+Dependency between test we can set using argument
+
+dependsOnMethods = "TestcaseName"
 
 7.groups
 ------------------
+The list of groups this class/method belongs to.
 
-Annotations
+TestSuite
+-----------------
+How to create Test suite in Selenium
+-----------------------------------
+Using testng.xml file we can create suite
+
+How to run only failed testcases?
+---------------------------------
+testng-failed.xml
+
+
+Annotations(Rules)
 ------------------
+<suite>
+<test>
+<classes>
+<class name="package.classname>
+<methods>
+@Test
+</methods>
+</class>
+</classes>
+</test>
+</suite>
+
+Annotations help us to run any precodition or postcondition for our test
+------------------
+Precondition
+-------------------
+@BeforeMethod
+@BeforeClass
+@BeforeTest
+@BeforeSuite
+
+postcondition
+--------------
+@AfterMethod
+@AfterClass
+@AfterTest
+@AfterSuite
+
+
 
 
 Page Object model

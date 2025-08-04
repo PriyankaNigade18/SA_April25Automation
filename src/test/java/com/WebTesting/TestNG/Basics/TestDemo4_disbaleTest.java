@@ -2,6 +2,7 @@ package com.WebTesting.TestNG.Basics;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 public class TestDemo4_disbaleTest 
 {
