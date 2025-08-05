@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>25/4/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 04 07:53:56 IST 2025</td>
+<td>Started on:</td><td>Tue Aug 05 07:40:55 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>45 seconds (45549 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (65 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,167 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo7_timeouts.testCase2()'><b>testCase2</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo7_timeouts</td>
-<td><div><pre>org.testng.internal.thread.ThreadTimeoutException: Method com.WebTesting.TestNG.Basics.TestDemo7_timeouts.testCase2() didn&apos;t finish within the time-out 5000
-	at java.base/java.lang.Thread.sleep0(Native Method)
-	at java.base/java.lang.Thread.sleep(Thread.java:509)
-	at com.WebTesting.TestNG.Basics.TestDemo7_timeouts.testCase2(TestDemo7_timeouts.java:20)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace977997405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace977997405'><pre>org.testng.internal.thread.ThreadTimeoutException: Method com.WebTesting.TestNG.Basics.TestDemo7_timeouts.testCase2() didn&apos;t finish within the time-out 5000
-	at java.base/java.lang.Thread.sleep0(Native Method)
-	at java.base/java.lang.Thread.sleep(Thread.java:509)
-	at com.WebTesting.TestNG.Basics.TestDemo7_timeouts.testCase2(TestDemo7_timeouts.java:20)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
-	at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
-	at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>5</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo7_timeouts@73a1e9a9</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation.testLogin()'><b>testLogin</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation</td>
-<td><div><pre>java.lang.AssertionError: Login Fail expected [true] but found [false]
-	at com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation.testLogin(TestDemo6_HRMLoginValidation.java:37)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2032647583", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2032647583'><pre>java.lang.AssertionError: Login Fail expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation.testLogin(TestDemo6_HRMLoginValidation.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>6</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation@77888435</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod.loginTest()'><b>loginTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod</td>
-<td><div><pre>java.lang.AssertionError: Fail as values not equal expected [true] but found [false]
-	at com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod.loginTest(TestDemo8_dependsOnMathod.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace542365801", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace542365801'><pre>java.lang.AssertionError: Fail as values not equal expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1079)
-	at org.testng.Assert.assertEquals(Assert.java:1043)
-	at com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod.loginTest(TestDemo8_dependsOnMathod.java:21)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod@4218d6a3</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo5_Assertion.testSoftAssertion()'><b>testSoftAssertion</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo5_Assertion</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.WebTesting.TestNG.Basics.TestDemo5_Assertion.testSoftAssertion(TestDemo5_Assertion.java:39)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2125062626", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2125062626'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.WebTesting.TestNG.Basics.TestDemo5_Assertion.testSoftAssertion(TestDemo5_Assertion.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo5_Assertion@3270d194</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -237,169 +76,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount.loginTest()'><b>loginTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount<br>Test method: this is functional test</td>
+<td title='com.WebTesting.TestNG.Annotations.ClassA.testCase2()'><b>testCase2</b><br>Test class: com.WebTesting.TestNG.Annotations.ClassA</td>
 <td></td>
 <td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount@71d44a3</td></tr>
+<td>com.WebTesting.TestNG.Annotations.ClassA@7c7a06ec</td></tr>
 <tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo9_Groups.testCase7()'><b>testCase7</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo9_Groups</td>
+<td title='com.WebTesting.TestNG.Annotations.ClassB.testCase1()'><b>testCase1</b><br>Test class: com.WebTesting.TestNG.Annotations.ClassB</td>
 <td></td>
 <td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo9_Groups@55182842</td></tr>
+<td>com.WebTesting.TestNG.Annotations.ClassB@c730b35</td></tr>
 <tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo4_disbaleTest.addTocartTest()'><b>addTocartTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo4_disbaleTest</td>
+<td title='com.WebTesting.TestNG.Annotations.ClassB.testCase3()'><b>testCase3</b><br>Test class: com.WebTesting.TestNG.Annotations.ClassB</td>
 <td></td>
 <td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo4_disbaleTest@76505305</td></tr>
+<td>com.WebTesting.TestNG.Annotations.ClassB@c730b35</td></tr>
 <tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount.loginTest()'><b>loginTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount<br>Test method: this is functional test</td>
+<td title='com.WebTesting.TestNG.Annotations.ClassA.testCase1()'><b>testCase1</b><br>Test class: com.WebTesting.TestNG.Annotations.ClassA</td>
 <td></td>
 <td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount@71d44a3</td></tr>
+<td>com.WebTesting.TestNG.Annotations.ClassA@7c7a06ec</td></tr>
 <tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo9_Groups.testCase1()'><b>testCase1</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo9_Groups</td>
+<td title='com.WebTesting.TestNG.Annotations.ClassB.testCase2()'><b>testCase2</b><br>Test class: com.WebTesting.TestNG.Annotations.ClassB</td>
 <td></td>
 <td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo9_Groups@55182842</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo2_priority.edgeTest()'><b>edgeTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo2_priority</td>
-<td></td>
-<td>3</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo2_priority@14cd1699</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo1_TestCases.testCase1()'><b>testCase1</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo1_TestCases</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo1_TestCases@4c583ecf</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo2_priority.firefoxTest()'><b>firefoxTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo2_priority</td>
-<td></td>
-<td>4</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo2_priority@14cd1699</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount.registerTest()'><b>registerTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount<br>Test method: this is functional test</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount@71d44a3</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount.loginTest()'><b>loginTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount<br>Test method: this is functional test</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount@71d44a3</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo1_TestCases.testCase2()'><b>testCase2</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo1_TestCases</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo1_TestCases@4c583ecf</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo7_timeouts.testCase1()'><b>testCase1</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo7_timeouts</td>
-<td></td>
-<td>5</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo7_timeouts@73a1e9a9</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo4_disbaleTest.loginTest()'><b>loginTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo4_disbaleTest</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo4_disbaleTest@76505305</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo4_disbaleTest.searchTest()'><b>searchTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo4_disbaleTest</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo4_disbaleTest@76505305</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo4_disbaleTest.registerTest()'><b>registerTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo4_disbaleTest</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo4_disbaleTest@76505305</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount.addTocartTest()'><b>addTocartTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount@71d44a3</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount.logoutTest()'><b>logoutTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount@71d44a3</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo9_Groups.testCase6()'><b>testCase6</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo9_Groups</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo9_Groups@55182842</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo9_Groups.testCase2()'><b>testCase2</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo9_Groups</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo9_Groups@55182842</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo9_Groups.testCase3()'><b>testCase3</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo9_Groups</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo9_Groups@55182842</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo2_priority.chromeTest()'><b>chromeTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo2_priority</td>
-<td></td>
-<td>21</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo2_priority@14cd1699</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod.registerTest()'><b>registerTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod@4218d6a3</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo9_Groups.testCase5()'><b>testCase5</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo9_Groups</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo9_Groups@55182842</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo9_Groups.testCase4()'><b>testCase4</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo9_Groups</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo9_Groups@55182842</td></tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount.searchTest()'><b>searchTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount<br>Test method: this is regression test</td>
-<td></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo3_description_invocationCount@71d44a3</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod.logoutTest()'><b>logoutTest</b><br>Test class: com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod</td>
-<td><div><pre>java.lang.Throwable: Method com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod.logoutTest() on instance com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod@4218d6a3 depends on not successfully finished methods 
-[com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod.loginTest() on instance com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod@4218d6a3]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1973233403", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1973233403'><pre>java.lang.Throwable: Method com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod.logoutTest() on instance com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod@4218d6a3 depends on not successfully finished methods 
-[com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod.loginTest() on instance com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod@4218d6a3]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod@4218d6a3</td></tr>
+<td>com.WebTesting.TestNG.Annotations.ClassB@c730b35</td></tr>
 </table><p>
 </body>
 </html>

@@ -958,6 +958,10 @@ Annotations(Rules)
 
 Annotations help us to run any precodition or postcondition for our test
 ------------------
+<test>: collection of classes
+<suite>: collection of test
+<class>: collect of test cases(method)
+
 Precondition
 -------------------
 @BeforeMethod
@@ -972,13 +976,30 @@ postcondition
 @AfterTest
 @AfterSuite
 
-
-
-
-Page Object model
+=======================================
+Page Object model(POM)
 ----------------------
+What is POM?
+-------------------
+What is Object Repository?
+---------------------------
+Its a storage to maintain properties of object
+Selenium does not have Object Repository but selenium can implement it
+1.Page Object Model
+2.Properties file
+
+
+Page Object model is design pattern which help us in Selenium
+- To implement Object Repository
+- To reuse the code/method
+- To maintain readability of program
+
+
 1.By locator
 2.PageFactory
+
+
+
 
 Using data
 -----------------
