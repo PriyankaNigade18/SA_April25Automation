@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod">
+      <class name="com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest">
         <methods>
-          <include name="registerTest"/>
-          <include name="logoutTest"/>
-          <include name="loginTest"/>
+          <include name="pageSetUp"/>
+          <include name="validateLogin"/>
         </methods>
-      </class> <!-- com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMathod -->
+      </class> <!-- com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

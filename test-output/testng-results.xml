@@ -1,95 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-05T07:53:12 IST" name="Suite" finished-at="2025-08-05T07:53:12 IST" duration-ms="166">
+  <suite started-at="2025-08-06T08:20:23 IST" name="Default suite" finished-at="2025-08-06T08:20:26 IST" duration-ms="3154">
     <groups>
     </groups>
-    <test started-at="2025-08-05T07:53:12 IST" name="Test1" finished-at="2025-08-05T07:53:12 IST" duration-ms="59">
-      <class name="com.WebTesting.TestNG.Annotations.ClassA">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassA@206a70ef]" started-at="2025-08-05T07:53:12 IST" name="setUp" finished-at="2025-08-05T07:53:12 IST" duration-ms="0" status="PASS">
+    <test started-at="2025-08-06T08:20:23 IST" name="Default test" finished-at="2025-08-06T08:20:26 IST" duration-ms="3154">
+      <class name="com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest@408d971b]" started-at="2025-08-06T08:20:23 IST" name="pageSetUp" finished-at="2025-08-06T08:20:25 IST" duration-ms="2056" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testCase1()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassA@206a70ef]" started-at="2025-08-05T07:53:12 IST" name="testCase1" finished-at="2025-08-05T07:53:12 IST" duration-ms="10" status="PASS">
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="validateURL()[pri:1, instance:com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest@408d971b]" started-at="2025-08-06T08:20:25 IST" name="validateURL" finished-at="2025-08-06T08:20:25 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassA@206a70ef]" started-at="2025-08-05T07:53:12 IST" name="testCase2" finished-at="2025-08-05T07:53:12 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- validateURL -->
+        <test-method signature="validateTitle()[pri:2, instance:com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest@408d971b]" started-at="2025-08-06T08:20:25 IST" name="validateTitle" finished-at="2025-08-06T08:20:25 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassA@206a70ef]" started-at="2025-08-05T07:53:12 IST" name="tearDown" finished-at="2025-08-05T07:53:12 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- validateTitle -->
+        <test-method signature="validateLogin()[pri:3, instance:com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest@408d971b]" started-at="2025-08-06T08:20:25 IST" name="validateLogin" finished-at="2025-08-06T08:20:26 IST" duration-ms="1039" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.WebTesting.TestNG.Annotations.ClassA -->
-    </test> <!-- Test1 -->
-    <test started-at="2025-08-05T07:53:12 IST" name="Test2" finished-at="2025-08-05T07:53:12 IST" duration-ms="11">
-      <class name="com.WebTesting.TestNG.Annotations.ClassB">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassB@5dda768f]" started-at="2025-08-05T07:53:12 IST" name="setUp" finished-at="2025-08-05T07:53:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testCase1()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassB@5dda768f]" started-at="2025-08-05T07:53:12 IST" name="testCase1" finished-at="2025-08-05T07:53:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassB@5dda768f]" started-at="2025-08-05T07:53:12 IST" name="testCase2" finished-at="2025-08-05T07:53:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method signature="testCase3()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassB@5dda768f]" started-at="2025-08-05T07:53:12 IST" name="testCase3" finished-at="2025-08-05T07:53:12 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassB@5dda768f]" started-at="2025-08-05T07:53:12 IST" name="tearDown" finished-at="2025-08-05T07:53:12 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.WebTesting.TestNG.Annotations.ClassB -->
-    </test> <!-- Test2 -->
-    <test started-at="2025-08-05T07:53:12 IST" name="Test3" finished-at="2025-08-05T07:53:12 IST" duration-ms="19">
-      <class name="com.WebTesting.TestNG.Annotations.ClassA">
-        <test-method is-config="true" signature="projConfig()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassA@24269709]" started-at="2025-08-05T07:53:12 IST" name="projConfig" finished-at="2025-08-05T07:53:12 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- projConfig -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassA@24269709]" started-at="2025-08-05T07:53:12 IST" name="setUp" finished-at="2025-08-05T07:53:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testCase1()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassA@24269709]" started-at="2025-08-05T07:53:12 IST" name="testCase1" finished-at="2025-08-05T07:53:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassA@24269709]" started-at="2025-08-05T07:53:12 IST" name="testCase2" finished-at="2025-08-05T07:53:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassA@24269709]" started-at="2025-08-05T07:53:12 IST" name="tearDown" finished-at="2025-08-05T07:53:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="projReports()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassA@24269709]" started-at="2025-08-05T07:53:12 IST" name="projReports" finished-at="2025-08-05T07:53:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- projReports -->
-      </class> <!-- com.WebTesting.TestNG.Annotations.ClassA -->
-      <class name="com.WebTesting.TestNG.Annotations.ClassB">
-        <test-method signature="testCase1()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassB@2aceadd4]" started-at="2025-08-05T07:53:12 IST" name="testCase1" finished-at="2025-08-05T07:53:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassB@2aceadd4]" started-at="2025-08-05T07:53:12 IST" name="testCase2" finished-at="2025-08-05T07:53:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method signature="testCase3()[pri:0, instance:com.WebTesting.TestNG.Annotations.ClassB@2aceadd4]" started-at="2025-08-05T07:53:12 IST" name="testCase3" finished-at="2025-08-05T07:53:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase3 -->
-      </class> <!-- com.WebTesting.TestNG.Annotations.ClassB -->
-    </test> <!-- Test3 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- validateLogin -->
+      </class> <!-- com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
