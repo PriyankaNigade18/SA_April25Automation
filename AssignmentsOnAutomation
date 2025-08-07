@@ -114,7 +114,17 @@ and run the test
 
 PageObject Model Assignment 20:
 --------------------------------
-Create Page Object model for https://www.saucedemo.com/v1/ login page
+Create Page Object model using both approaches for https://www.saucedemo.com/v1/ login page
+-By locator
+-PageFactory
+
+
+TestData
+=================
+Assignment 21:Xml data passing
+---------------
+using xml file read test data for https://tutorialsninja.com/demo/index.php?route=account/login
+application and automate the same
 
 
 

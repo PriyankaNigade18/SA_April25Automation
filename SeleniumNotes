@@ -996,15 +996,18 @@ Page Object model is design pattern which help us in Selenium
 
 
 1.By locator
-2.PageFactory
-
-
-
-
-Using data
+2.PageFactory class
+============================================================
+Use of Test data
 -----------------
-1.data passing using xml
-2.data passing using properties file
+1.data passing using xml(short data )login data,browser name
+-------------------------
+Scenario:
+parallel testing (*****next session topic******)
+
+2.data passing using properties file:Configuration kind of data
+
+3.Using excel(testdata)eg.register page data
 
 Data driver Test
 --------------------
@@ -1025,13 +1028,18 @@ Reports
 1.ExtentReport
 2.ChainTestReport(Docker)
 
-
-
-
-
-
 2.Cucumber
 
+
+===============================================
+API Testing
+Appium
+Javascript
+Cypress Basics
+Playwright Basics
+
+AI in Testing
+----------------------
 
 
 

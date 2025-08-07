@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-06T08:20:23 IST" name="Default suite" finished-at="2025-08-06T08:20:26 IST" duration-ms="3154">
+  <suite started-at="2025-08-07T08:24:41 IST" name="Suite" finished-at="2025-08-07T08:24:48 IST" duration-ms="6134">
     <groups>
     </groups>
-    <test started-at="2025-08-06T08:20:23 IST" name="Default test" finished-at="2025-08-06T08:20:26 IST" duration-ms="3154">
-      <class name="com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest">
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest@408d971b]" started-at="2025-08-06T08:20:23 IST" name="pageSetUp" finished-at="2025-08-06T08:20:25 IST" duration-ms="2056" status="PASS">
+    <test started-at="2025-08-07T08:24:41 IST" name="Test" finished-at="2025-08-07T08:24:48 IST" duration-ms="6134">
+      <class name="com.WebTesting.TestNG.TestData.TestDataUsingXMLFile">
+        <test-method signature="testDataFromFile(java.lang.String,java.lang.String)[pri:0, instance:com.WebTesting.TestNG.TestData.TestDataUsingXMLFile@4c371370]" started-at="2025-08-07T08:24:42 IST" name="testDataFromFile" finished-at="2025-08-07T08:24:48 IST" duration-ms="6086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="validateURL()[pri:1, instance:com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest@408d971b]" started-at="2025-08-06T08:20:25 IST" name="validateURL" finished-at="2025-08-06T08:20:25 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateURL -->
-        <test-method signature="validateTitle()[pri:2, instance:com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest@408d971b]" started-at="2025-08-06T08:20:25 IST" name="validateTitle" finished-at="2025-08-06T08:20:25 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateTitle -->
-        <test-method signature="validateLogin()[pri:3, instance:com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest@408d971b]" started-at="2025-08-06T08:20:25 IST" name="validateLogin" finished-at="2025-08-06T08:20:26 IST" duration-ms="1039" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogin -->
-      </class> <!-- com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testDataFromFile -->
+      </class> <!-- com.WebTesting.TestNG.TestData.TestDataUsingXMLFile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
