@@ -1004,6 +1004,14 @@ Use of Test data
 -------------------------
 Scenario:
 parallel testing (*****next session topic******)
+----------------------------
+1.test level
+2.class level
+3.method level
+
+cross browser testing
+
+
 
 2.data passing using properties file:Configuration kind of data
 
