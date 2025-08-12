@@ -1003,7 +1003,7 @@ Use of Test data
 1.data passing using xml(short data )login data,browser name
 -------------------------
 Scenario:
-parallel testing (*****next session topic******)
+parallel testing 
 ----------------------------
 1.test level
 2.class level
@@ -1011,11 +1011,24 @@ parallel testing (*****next session topic******)
 
 cross browser testing
 
-
-
 2.data passing using properties file:Configuration kind of data
 
 3.Using excel(testdata)eg.register page data
+---------------------------------------
+Apache POI
+----------------
+Apache POI is an open-source Java library developed by the Apache Software Foundation. Its primary purpose is to provide Java APIs for reading, writing, 
+and manipulating various Microsoft Office file formats.
+
+classes
+-------------------
+XSSFWorkbook
+XSSFSheet
+XSSFRow
+XSSFCell
+
+getStringCellValue()
+
 
 Data driver Test
 --------------------
