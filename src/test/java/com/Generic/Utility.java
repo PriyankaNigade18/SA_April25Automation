@@ -1,7 +1,12 @@
 package com.Generic;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -13,6 +18,33 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Utility 
 {
+	
+	public static String readPropertiesFile(String fileName,String key)
+	{
+		//create object of Properties class
+		 Properties p1=new Properties();
+		
+		//read data from file we need path
+		  File f1=new File(System.getProperty("user.dir")+"//ConfigData//"+fileName+".properties");
+		  
+		  //read a file in stream: FileInputStream
+		  FileInputStream fs;
+		try {
+			fs = new FileInputStream(f1);
+			 //load the file
+			  p1.load(fs);
+		} catch (FileNotFoundException e) {
+
+			System.out.println("File path is wrong!");
+		} catch (IOException e) {
+
+			System.out.println("Properties file not loaded!");
+		}
+		  	  
+		return p1.getProperty(key);
+	}
+	
+	
 	
 	
 	public static void closeAllWindows(WebDriver driver,String parentId, List<String> allHandles)
