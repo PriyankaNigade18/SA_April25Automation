@@ -22,11 +22,11 @@ public class ExcelFileReading {
 	  XSSFWorkbook wb=new XSSFWorkbook(fs);
 	  
 	  //number of rows
-	  int rows=wb.getSheet("userdata").getPhysicalNumberOfRows();
+	  int rows=wb.getSheet("HRM").getPhysicalNumberOfRows();
 	  System.out.println("Total rows are: "+rows);//5
 	  
 	  //number of cells
-	  int cells=wb.getSheet("userdata").getRow(0).getPhysicalNumberOfCells();
+	  int cells=wb.getSheet("HRM").getRow(0).getPhysicalNumberOfCells();
 	  System.out.println("Total cells are: "+cells);//2
 	  
 	  //create storage with Array
@@ -38,7 +38,7 @@ public class ExcelFileReading {
 		  for(int j=0;j<cells;j++)//cells2
 		  {
 			  //arr[i-1]: we are skipping the heading and store the value at 0th position
-			  arr[i-1][j]=wb.getSheet("userdata").getRow(i).getCell(j).getStringCellValue();
+			  arr[i-1][j]=wb.getSheet("HRM").getRow(i).getCell(j).getStringCellValue();
 			  System.out.print(arr[i-1][j]+"   ");
 		  }
 		  System.out.println();

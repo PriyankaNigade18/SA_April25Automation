@@ -1028,13 +1028,32 @@ XSSFRow
 XSSFCell
 
 getStringCellValue()
-
-
+====================================================
 Data driver Testing/Data driven framework
 -----------------------------------------------
+Executing same set of action with multiple data,
+multiple time is called Data driven testing
+
+login 
+
+TESTNG: @DataProvider
+CUCUMBER: Scenario Outline keyword
+
 1.using array
 2.using Apache POI(Excel file)
 
+Screenshots
+=================
+TakeScreenshot interface
+----------------------
+Capture page screen(default)
+
+---Next Session-----
+Timestamp
+Screenshot utility
+Capture full page (using external library : Ashot library)
+
+======================================
 Hybrid framework design
 
  
