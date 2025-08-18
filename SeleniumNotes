@@ -1047,14 +1047,17 @@ Screenshots
 TakeScreenshot interface
 ----------------------
 Capture page screen(default)
-
----Next Session-----
 Timestamp
 Screenshot utility
 Capture full page (using external library : Ashot library)
-
+https://github.com/pazone/ashot
 ======================================
 Hybrid framework design
+=======================
+What to design
+How to design
+How to Run
+
 
  
 DevOps
