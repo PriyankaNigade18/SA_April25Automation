@@ -1,0 +1,44 @@
+package com.SwagLab.UITest.TestCases;
+
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.SwagLab.UITest.Base.BaseClass;
+
+
+public class T1_LoginTest extends BaseClass
+{
+  @Test(priority=1)
+  public void varifyUrl() 
+  {
+	  String actUrl=lp.getAppUrl();
+	  String expUrl="saucedemo.com";
+	  Assert.assertTrue(actUrl.contains(expUrl),"Url not matched!");
+	  System.out.println("Url Matched!");
+  }
+  
+  @Test(priority=2)
+  public void varifyTitle() 
+  {
+	  String actTitle=lp.getAppTitle();
+	  String expTitle="Swag Labs";
+	  Assert.assertEquals(actTitle,expTitle,"Title not mathced!");
+	  System.out.println("Title matched!");
+	  
+  }
+  
+  @Test(priority=3)
+  public void validateLoginFunctionality() 
+  {
+	  lp.setUserName("standard_user");
+	  lp.setPassword("secret_sauce");
+	  lp.ClickOnLoginButton();
+	  
+	  //assertion
+	  Assert.assertTrue(lp.getAppUrl().contains("inventory.html"),"Login Fail!");
+	  System.out.println("Login Completed!");
+	  
+  }
+}
