@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 public class P1_LoginPage 
 {
 	//Encapsulation=Private data + public method
@@ -59,10 +60,17 @@ public class P1_LoginPage
 	{
 		loginBtn.click();
 		//page navigates to next page then return next page object
-		return new P2_InventoryPage();
+		return new P2_InventoryPage(driver);
 	}
 	
-	
+	public P2_InventoryPage doLogin(String un,String psw)
+	{
+		
+		usernameEle.sendKeys(un);
+		passwordEle.sendKeys(psw);
+		loginBtn.click();
+		return new P2_InventoryPage(driver);
+	}
 	
 	
 	

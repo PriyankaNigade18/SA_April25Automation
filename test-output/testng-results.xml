@@ -1,29 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-19T08:22:05 IST" name="Suite" finished-at="2025-08-19T08:22:07 IST" duration-ms="2023">
+  <suite started-at="2025-08-21T08:48:42 IST" name="Suite" finished-at="2025-08-21T08:48:45 IST" duration-ms="3372">
     <groups>
     </groups>
-    <test started-at="2025-08-19T08:22:05 IST" name="Test" finished-at="2025-08-19T08:22:07 IST" duration-ms="2023">
+    <test started-at="2025-08-21T08:48:42 IST" name="LoginTest" finished-at="2025-08-21T08:48:45 IST" duration-ms="2993">
       <class name="com.SwagLab.UITest.TestCases.T1_LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@3b69e7d1]" started-at="2025-08-19T08:22:05 IST" name="setUp" finished-at="2025-08-19T08:22:07 IST" duration-ms="1587" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@3b69e7d1]" started-at="2025-08-21T08:48:42 IST" name="setUp" finished-at="2025-08-21T08:48:44 IST" duration-ms="2295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="varifyUrl()[pri:1, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@3b69e7d1]" started-at="2025-08-19T08:22:07 IST" name="varifyUrl" finished-at="2025-08-19T08:22:07 IST" duration-ms="18" status="PASS">
+        <test-method signature="varifyUrl()[pri:1, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@3b69e7d1]" started-at="2025-08-21T08:48:44 IST" name="varifyUrl" finished-at="2025-08-21T08:48:44 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varifyUrl -->
-        <test-method signature="varifyTitle()[pri:2, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@3b69e7d1]" started-at="2025-08-19T08:22:07 IST" name="varifyTitle" finished-at="2025-08-19T08:22:07 IST" duration-ms="11" status="PASS">
+        <test-method signature="varifyTitle()[pri:2, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@3b69e7d1]" started-at="2025-08-21T08:48:44 IST" name="varifyTitle" finished-at="2025-08-21T08:48:44 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varifyTitle -->
-        <test-method signature="validateLoginFunctionality()[pri:3, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@3b69e7d1]" started-at="2025-08-19T08:22:07 IST" name="validateLoginFunctionality" finished-at="2025-08-19T08:22:07 IST" duration-ms="335" status="PASS">
+        <test-method signature="validateLoginFunctionality()[pri:3, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@3b69e7d1]" started-at="2025-08-21T08:48:44 IST" name="validateLoginFunctionality" finished-at="2025-08-21T08:48:45 IST" duration-ms="568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFunctionality -->
       </class> <!-- com.SwagLab.UITest.TestCases.T1_LoginTest -->
-    </test> <!-- Test -->
+    </test> <!-- LoginTest -->
+    <test started-at="2025-08-21T08:48:42 IST" name="InventoryTest" finished-at="2025-08-21T08:48:45 IST" duration-ms="3372">
+      <class name="com.SwagLab.UITest.TestCases.T2_InventoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@6200f9cb]" started-at="2025-08-21T08:48:42 IST" name="setUp" finished-at="2025-08-21T08:48:44 IST" duration-ms="2294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@6200f9cb]" started-at="2025-08-21T08:48:44 IST" name="pageSetup" finished-at="2025-08-21T08:48:44 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyProductCount()[pri:1, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@6200f9cb]" started-at="2025-08-21T08:48:44 IST" name="verifyProductCount" finished-at="2025-08-21T08:48:44 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCount -->
+        <test-method signature="verifyProductDetails()[pri:2, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@6200f9cb]" started-at="2025-08-21T08:48:44 IST" name="verifyProductDetails" finished-at="2025-08-21T08:48:45 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetails -->
+        <test-method signature="validateAddToCart()[pri:3, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@6200f9cb]" started-at="2025-08-21T08:48:45 IST" name="validateAddToCart" finished-at="2025-08-21T08:48:45 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCart -->
+        <test-method signature="verifyCartPageLaunch()[pri:4, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@6200f9cb]" started-at="2025-08-21T08:48:45 IST" name="verifyCartPageLaunch" finished-at="2025-08-21T08:48:45 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageLaunch -->
+      </class> <!-- com.SwagLab.UITest.TestCases.T2_InventoryTest -->
+    </test> <!-- InventoryTest -->
   </suite> <!-- Suite -->
 </testng-results>
