@@ -82,6 +82,6 @@ public class P2_InventoryPage
 	{
 		cartOption.click();
 		//navigate to cart page
-		return new P3_CartPage();
+		return new P3_CartPage(driver);
 	}
 }

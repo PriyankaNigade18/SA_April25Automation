@@ -1,5 +1,8 @@
 package com.SwagLab.UITest.TestCases;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -20,7 +23,7 @@ public class T2_InventoryTest extends BaseClass
   public void verifyProductCount()
   {
 	  int actCount=ip.getProductCount();
-	  Assert.assertEquals(actCount,6);
+	  AssertJUnit.assertEquals(actCount,6);
 	  System.out.println("Total Product count is matched: "+actCount);
   }
   

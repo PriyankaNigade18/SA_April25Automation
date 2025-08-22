@@ -1,6 +1,7 @@
 package com.SwagLab.UITest.TestCases;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import com.SwagLab.UITest.Base.BaseClass;
 
