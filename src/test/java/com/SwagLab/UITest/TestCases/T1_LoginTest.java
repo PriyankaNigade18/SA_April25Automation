@@ -16,7 +16,7 @@ public class T1_LoginTest extends BaseClass
   public void varifyUrl() 
   {
 	  String actUrl=lp.getAppUrl();
-	  String expUrl="saucedemo.com";
+	  String expUrl=prop.getData("homepageUrl");
 	  Assert.assertTrue(actUrl.contains(expUrl),"Url not matched!");
 	  System.out.println("Url Matched!");
   }
@@ -25,7 +25,7 @@ public class T1_LoginTest extends BaseClass
   public void varifyTitle() 
   {
 	  String actTitle=lp.getAppTitle();
-	  String expTitle="Swag Labs";
+	  String expTitle=prop.getData("homepageTitle");
 	  Assert.assertEquals(actTitle,expTitle,"Title not mathced!");
 	  System.out.println("Title matched!");
 	  

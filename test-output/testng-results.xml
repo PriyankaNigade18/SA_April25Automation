@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-22T08:46:23 IST" name="Suite" finished-at="2025-08-22T08:46:30 IST" duration-ms="6680">
+  <suite started-at="2025-08-25T08:24:07 IST" name="Suite" finished-at="2025-08-25T08:24:44 IST" duration-ms="37141">
     <groups>
     </groups>
-    <test started-at="2025-08-22T08:46:23 IST" name="LoginTest" finished-at="2025-08-22T08:46:30 IST" duration-ms="6680">
-      <class name="com.SwagLab.UITest.TestCases.T1_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@385c9627]" started-at="2025-08-22T08:46:23 IST" name="setUp" finished-at="2025-08-22T08:46:25 IST" duration-ms="1569" status="PASS">
+    <test started-at="2025-08-25T08:24:07 IST" name="LoginTest" finished-at="2025-08-25T08:24:44 IST" duration-ms="37141">
+      <class name="com.SwagLab.UITest.TestCases.T5_OverviewTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.UITest.TestCases.T5_OverviewTest@5dda768f]" started-at="2025-08-25T08:24:35 IST" name="setUp" finished-at="2025-08-25T08:24:36 IST" duration-ms="1176" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,84 +18,206 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="varifyUrl()[pri:1, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@385c9627]" started-at="2025-08-22T08:46:25 IST" name="varifyUrl" finished-at="2025-08-22T08:46:25 IST" duration-ms="24" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyUrl -->
-        <test-method signature="varifyTitle()[pri:2, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@385c9627]" started-at="2025-08-22T08:46:25 IST" name="varifyTitle" finished-at="2025-08-22T08:46:25 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyTitle -->
-        <test-method signature="validateLoginFunctionality()[pri:3, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@385c9627]" started-at="2025-08-22T08:46:25 IST" name="validateLoginFunctionality" finished-at="2025-08-22T08:46:25 IST" duration-ms="338" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginFunctionality -->
-      </class> <!-- com.SwagLab.UITest.TestCases.T1_LoginTest -->
-      <class name="com.SwagLab.UITest.TestCases.T3_CartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.UITest.TestCases.T3_CartTest@4e08711f]" started-at="2025-08-22T08:46:27 IST" name="setUp" finished-at="2025-08-22T08:46:28 IST" duration-ms="1190" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="pageSet()[pri:0, instance:com.SwagLab.UITest.TestCases.T3_CartTest@4e08711f]" started-at="2025-08-22T08:46:28 IST" name="pageSet" finished-at="2025-08-22T08:46:29 IST" duration-ms="913" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSet -->
-        <test-method signature="varifyTotalProductsInCart()[pri:1, instance:com.SwagLab.UITest.TestCases.T3_CartTest@4e08711f]" started-at="2025-08-22T08:46:29 IST" name="varifyTotalProductsInCart" finished-at="2025-08-22T08:46:29 IST" duration-ms="37" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyTotalProductsInCart -->
-        <test-method signature="validateRemoveProduct()[pri:2, instance:com.SwagLab.UITest.TestCases.T3_CartTest@4e08711f]" started-at="2025-08-22T08:46:29 IST" name="validateRemoveProduct" finished-at="2025-08-22T08:46:29 IST" duration-ms="102" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateRemoveProduct -->
-        <test-method signature="validateContinueShopping()[pri:3, instance:com.SwagLab.UITest.TestCases.T3_CartTest@4e08711f]" started-at="2025-08-22T08:46:29 IST" name="validateContinueShopping" finished-at="2025-08-22T08:46:30 IST" duration-ms="446" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateContinueShopping -->
-        <test-method signature="validateContinueCheckOut()[pri:4, instance:com.SwagLab.UITest.TestCases.T3_CartTest@4e08711f]" started-at="2025-08-22T08:46:30 IST" name="validateContinueCheckOut" finished-at="2025-08-22T08:46:30 IST" duration-ms="83" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateContinueCheckOut -->
-      </class> <!-- com.SwagLab.UITest.TestCases.T3_CartTest -->
-      <class name="com.SwagLab.UITest.TestCases.T2_InventoryTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@4b2bac3f]" started-at="2025-08-22T08:46:25 IST" name="setUp" finished-at="2025-08-22T08:46:26 IST" duration-ms="1138" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@4b2bac3f]" started-at="2025-08-22T08:46:26 IST" name="pageSetup" finished-at="2025-08-22T08:46:26 IST" duration-ms="344" status="PASS">
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.SwagLab.UITest.TestCases.T5_OverviewTest@5dda768f]" started-at="2025-08-25T08:24:36 IST" name="pageSetup" finished-at="2025-08-25T08:24:41 IST" duration-ms="5037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="verifyProductCount()[pri:1, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@4b2bac3f]" started-at="2025-08-22T08:46:26 IST" name="verifyProductCount" finished-at="2025-08-22T08:46:26 IST" duration-ms="28" status="PASS">
+        <test-method signature="verifyPayment()[pri:1, instance:com.SwagLab.UITest.TestCases.T5_OverviewTest@5dda768f]" started-at="2025-08-25T08:24:41 IST" name="verifyPayment" finished-at="2025-08-25T08:24:42 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayment -->
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T5_OverviewTest@5dda768f]" started-at="2025-08-25T08:24:42 IST" name="waitForTest" finished-at="2025-08-25T08:24:43 IST" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method signature="validateChekout()[pri:2, instance:com.SwagLab.UITest.TestCases.T5_OverviewTest@5dda768f]" started-at="2025-08-25T08:24:43 IST" name="validateChekout" finished-at="2025-08-25T08:24:43 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateChekout -->
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T5_OverviewTest@5dda768f]" started-at="2025-08-25T08:24:43 IST" name="waitForTest" finished-at="2025-08-25T08:24:44 IST" duration-ms="1001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.UITest.TestCases.T5_OverviewTest@5dda768f]" started-at="2025-08-25T08:24:44 IST" name="tearDown" finished-at="2025-08-25T08:24:44 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SwagLab.UITest.TestCases.T5_OverviewTest -->
+      <class name="com.SwagLab.UITest.TestCases.T4_CheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.UITest.TestCases.T4_CheckoutTest@1ce24091]" started-at="2025-08-25T08:24:29 IST" name="setUp" finished-at="2025-08-25T08:24:30 IST" duration-ms="1168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.SwagLab.UITest.TestCases.T4_CheckoutTest@1ce24091]" started-at="2025-08-25T08:24:30 IST" name="pageSetup" finished-at="2025-08-25T08:24:34 IST" duration-ms="3783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="validateCheckout()[pri:0, instance:com.SwagLab.UITest.TestCases.T4_CheckoutTest@1ce24091]" started-at="2025-08-25T08:24:34 IST" name="validateCheckout" finished-at="2025-08-25T08:24:34 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckout -->
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T4_CheckoutTest@1ce24091]" started-at="2025-08-25T08:24:34 IST" name="waitForTest" finished-at="2025-08-25T08:24:35 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.UITest.TestCases.T4_CheckoutTest@1ce24091]" started-at="2025-08-25T08:24:35 IST" name="tearDown" finished-at="2025-08-25T08:24:35 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SwagLab.UITest.TestCases.T4_CheckoutTest -->
+      <class name="com.SwagLab.UITest.TestCases.T1_LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@f5958c9]" started-at="2025-08-25T08:24:07 IST" name="setUp" finished-at="2025-08-25T08:24:08 IST" duration-ms="1603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyUrl()[pri:1, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@f5958c9]" started-at="2025-08-25T08:24:08 IST" name="varifyUrl" finished-at="2025-08-25T08:24:08 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyUrl -->
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@f5958c9]" started-at="2025-08-25T08:24:08 IST" name="waitForTest" finished-at="2025-08-25T08:24:09 IST" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method signature="varifyTitle()[pri:2, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@f5958c9]" started-at="2025-08-25T08:24:09 IST" name="varifyTitle" finished-at="2025-08-25T08:24:09 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyTitle -->
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@f5958c9]" started-at="2025-08-25T08:24:09 IST" name="waitForTest" finished-at="2025-08-25T08:24:10 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method signature="validateLoginFunctionality()[pri:3, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@f5958c9]" started-at="2025-08-25T08:24:10 IST" name="validateLoginFunctionality" finished-at="2025-08-25T08:24:11 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality -->
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@f5958c9]" started-at="2025-08-25T08:24:11 IST" name="waitForTest" finished-at="2025-08-25T08:24:12 IST" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@f5958c9]" started-at="2025-08-25T08:24:12 IST" name="tearDown" finished-at="2025-08-25T08:24:12 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SwagLab.UITest.TestCases.T1_LoginTest -->
+      <class name="com.SwagLab.UITest.TestCases.T3_CartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.UITest.TestCases.T3_CartTest@fbd1f6]" started-at="2025-08-25T08:24:19 IST" name="setUp" finished-at="2025-08-25T08:24:20 IST" duration-ms="1139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSet()[pri:0, instance:com.SwagLab.UITest.TestCases.T3_CartTest@fbd1f6]" started-at="2025-08-25T08:24:20 IST" name="pageSet" finished-at="2025-08-25T08:24:24 IST" duration-ms="3686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSet -->
+        <test-method signature="varifyTotalProductsInCart()[pri:1, instance:com.SwagLab.UITest.TestCases.T3_CartTest@fbd1f6]" started-at="2025-08-25T08:24:24 IST" name="varifyTotalProductsInCart" finished-at="2025-08-25T08:24:24 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyTotalProductsInCart -->
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T3_CartTest@fbd1f6]" started-at="2025-08-25T08:24:24 IST" name="waitForTest" finished-at="2025-08-25T08:24:25 IST" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method signature="validateRemoveProduct()[pri:2, instance:com.SwagLab.UITest.TestCases.T3_CartTest@fbd1f6]" started-at="2025-08-25T08:24:25 IST" name="validateRemoveProduct" finished-at="2025-08-25T08:24:25 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRemoveProduct -->
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T3_CartTest@fbd1f6]" started-at="2025-08-25T08:24:25 IST" name="waitForTest" finished-at="2025-08-25T08:24:26 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method signature="validateContinueShopping()[pri:3, instance:com.SwagLab.UITest.TestCases.T3_CartTest@fbd1f6]" started-at="2025-08-25T08:24:26 IST" name="validateContinueShopping" finished-at="2025-08-25T08:24:26 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContinueShopping -->
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T3_CartTest@fbd1f6]" started-at="2025-08-25T08:24:26 IST" name="waitForTest" finished-at="2025-08-25T08:24:27 IST" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method signature="validateContinueCheckOut()[pri:4, instance:com.SwagLab.UITest.TestCases.T3_CartTest@fbd1f6]" started-at="2025-08-25T08:24:27 IST" name="validateContinueCheckOut" finished-at="2025-08-25T08:24:27 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContinueCheckOut -->
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T3_CartTest@fbd1f6]" started-at="2025-08-25T08:24:27 IST" name="waitForTest" finished-at="2025-08-25T08:24:28 IST" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.UITest.TestCases.T3_CartTest@fbd1f6]" started-at="2025-08-25T08:24:28 IST" name="tearDown" finished-at="2025-08-25T08:24:29 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SwagLab.UITest.TestCases.T3_CartTest -->
+      <class name="com.SwagLab.UITest.TestCases.T2_InventoryTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@55fe41ea]" started-at="2025-08-25T08:24:12 IST" name="setUp" finished-at="2025-08-25T08:24:13 IST" duration-ms="1156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@55fe41ea]" started-at="2025-08-25T08:24:13 IST" name="pageSetup" finished-at="2025-08-25T08:24:14 IST" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyProductCount()[pri:1, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@55fe41ea]" started-at="2025-08-25T08:24:14 IST" name="verifyProductCount" finished-at="2025-08-25T08:24:15 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductCount -->
-        <test-method signature="verifyProductDetails()[pri:2, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@4b2bac3f]" started-at="2025-08-22T08:46:26 IST" name="verifyProductDetails" finished-at="2025-08-22T08:46:27 IST" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@55fe41ea]" started-at="2025-08-25T08:24:15 IST" name="waitForTest" finished-at="2025-08-25T08:24:16 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method signature="verifyProductDetails()[pri:2, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@55fe41ea]" started-at="2025-08-25T08:24:16 IST" name="verifyProductDetails" finished-at="2025-08-25T08:24:16 IST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductDetails -->
-        <test-method signature="validateAddToCart()[pri:3, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@4b2bac3f]" started-at="2025-08-22T08:46:27 IST" name="validateAddToCart" finished-at="2025-08-22T08:46:27 IST" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@55fe41ea]" started-at="2025-08-25T08:24:16 IST" name="waitForTest" finished-at="2025-08-25T08:24:17 IST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method signature="validateAddToCart()[pri:3, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@55fe41ea]" started-at="2025-08-25T08:24:17 IST" name="validateAddToCart" finished-at="2025-08-25T08:24:17 IST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddToCart -->
-        <test-method signature="verifyCartPageLaunch()[pri:4, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@4b2bac3f]" started-at="2025-08-22T08:46:27 IST" name="verifyCartPageLaunch" finished-at="2025-08-22T08:46:27 IST" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@55fe41ea]" started-at="2025-08-25T08:24:17 IST" name="waitForTest" finished-at="2025-08-25T08:24:18 IST" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method signature="verifyCartPageLaunch()[pri:4, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@55fe41ea]" started-at="2025-08-25T08:24:18 IST" name="verifyCartPageLaunch" finished-at="2025-08-25T08:24:18 IST" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartPageLaunch -->
+        <test-method is-config="true" signature="waitForTest()[pri:0, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@55fe41ea]" started-at="2025-08-25T08:24:18 IST" name="waitForTest" finished-at="2025-08-25T08:24:19 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLab.UITest.TestCases.T2_InventoryTest@55fe41ea]" started-at="2025-08-25T08:24:19 IST" name="tearDown" finished-at="2025-08-25T08:24:19 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.SwagLab.UITest.TestCases.T2_InventoryTest -->
     </test> <!-- LoginTest -->
   </suite> <!-- Suite -->

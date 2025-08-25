@@ -8,6 +8,7 @@ import org.testng.annotations.*;
 
 import com.SwagLab.UITest.Pages.*;
 import com.SwagLab.UITest.Utilities.BrowserProvider;
+import com.SwagLab.UITest.Utilities.PropertiesUtil;
 
 public class BaseClass 
 {
@@ -16,22 +17,55 @@ public class BaseClass
 	public P1_LoginPage lp;
 	public P2_InventoryPage ip;
 	public P3_CartPage cp;
+	public P4_CheckoutPage ch;
+	public P5_OverviewPage op;
+	public PropertiesUtil prop;
 	
 	@BeforeClass
 	@Parameters({"bname"})
 	public void setUp(String bname)
 	{
+		prop=new PropertiesUtil("Config");
+		
 		driver=BrowserProvider.setDriver(bname);
 		//driver=new EdgeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://www.saucedemo.com/");
+		driver.get(prop.getData("url"));
 		lp=new P1_LoginPage(driver);
 		ip=new P2_InventoryPage(driver);
 		cp=new P3_CartPage(driver);
+		ch=new P4_CheckoutPage(driver);
+		op=new  P5_OverviewPage(driver);
+	}
+	
+	@AfterMethod
+	public void waitForTest()
+	{
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	
+	public static void addWait()
+	{
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 	
+	
+	@AfterClass
+	public void tearDown()
+	{
+		driver.quit();
+	}
 	
 
 }

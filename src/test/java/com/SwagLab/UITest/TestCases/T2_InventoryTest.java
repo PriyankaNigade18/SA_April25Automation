@@ -16,6 +16,7 @@ public class T2_InventoryTest extends BaseClass
 	public void pageSetup()
 	{
 		ip=lp.doLogin("standard_user","secret_sauce");
+		addWait();
 		
 	}
 	
@@ -37,7 +38,7 @@ public class T2_InventoryTest extends BaseClass
   @Test(priority=3)
   public void validateAddToCart()
   {
-	  ip.addProductToCart("Sauce Labs Bike Light");
+	  ip.addProductToCart(prop.getData("pname1"));
   }
   
   

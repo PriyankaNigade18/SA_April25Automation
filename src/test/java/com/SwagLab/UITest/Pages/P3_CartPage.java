@@ -71,7 +71,7 @@ public class P3_CartPage
 	public P4_CheckoutPage doContinueCheckout()
 	{
 		checkoutBtn.click();
-		return new P4_CheckoutPage();
+		return new P4_CheckoutPage(driver);
 	}
 	
 	
