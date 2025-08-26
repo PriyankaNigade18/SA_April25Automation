@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
 import com.SwagLab.UITest.Base.BaseClass;
+import com.SwagLab.UITest.Utilities.ExcelUtil;
 
 public class T5_OverviewTest extends BaseClass 
 {
@@ -13,7 +14,7 @@ public class T5_OverviewTest extends BaseClass
 	@BeforeClass
 	public void pageSetup()
 	{
-		ip=lp.doLogin("standard_user","secret_sauce");
+	ip=lp.doLogin(ExcelUtil.getStringData("UserData",0,1),ExcelUtil.getStringData("UserData",1,1));
 	addWait();
 	ip=ip.addProductToCart(prop.getData("pname2"));
 	addWait();
@@ -21,7 +22,7 @@ public class T5_OverviewTest extends BaseClass
 	addWait();
 	ch=cp.doContinueCheckout();
 	addWait();
-	op=ch.doContinueCheckout("Priyanka","Nigade","411047");
+	op=ch.doContinueCheckout(ExcelUtil.getStringData("UserData",2,1),ExcelUtil.getStringData("UserData",3,1),ExcelUtil.getStringData("UserData",4,1));
 	}
 	
   @Test(priority=1)

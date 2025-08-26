@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.SwagLab.UITest.Base.BaseClass;
+import com.SwagLab.UITest.Utilities.ExcelUtil;
 
 
 public class T1_LoginTest extends BaseClass
@@ -34,8 +35,8 @@ public class T1_LoginTest extends BaseClass
   @Test(priority=3)
   public void validateLoginFunctionality() 
   {
-	  lp.setUserName("standard_user");
-	  lp.setPassword("secret_sauce");
+	  lp.setUserName(ExcelUtil.getStringData("UserData",0,1));//index
+	  lp.setPassword(ExcelUtil.getStringData("UserData",1,1));
 	  lp.ClickOnLoginButton();
 	  
 	  //assertion

@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
 import com.SwagLab.UITest.Base.BaseClass;
+import com.SwagLab.UITest.Utilities.ExcelUtil;
 
 public class T3_CartTest extends BaseClass
 {
@@ -15,7 +16,7 @@ public class T3_CartTest extends BaseClass
 	@BeforeClass
 	public void pageSet()
 	{
-		ip=lp.doLogin("standard_user","secret_sauce");
+		ip=lp.doLogin(ExcelUtil.getStringData("UserData",0,1),ExcelUtil.getStringData("UserData",1,1));
 		addWait();
 		ip=ip.addProductToCart(prop.getData("pname1"));
 		addWait();
