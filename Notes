@@ -2,3 +2,7 @@
 This is project related to selenium Grid
 ----------------------------------------
 where we can test application into distributed environment
+
+Prerequisite
+---------------
+Docker
