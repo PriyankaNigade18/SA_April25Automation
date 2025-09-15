@@ -11,6 +11,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import com.Generic.Utility;
+
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
@@ -22,6 +24,10 @@ public class FullPageScreenshot {
 	  //create driver session
 	  WebDriver driver=new ChromeDriver();
 	  driver.get("https://www.amazon.in");
+	  
+	  Utility.fullPageScreenshot(driver,"Page");
+	  
+	  /*
 	  //timestamp
 	  String timestamp=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 	  
@@ -40,7 +46,7 @@ public class FullPageScreenshot {
 		e.printStackTrace();
 	}
 	  
-	  
+	  */
 	  
 	  
 	  

@@ -25,7 +25,7 @@ public class S64_ResizeAction {
 	  
 	  //moveToElemenet+dragAndDrop(target,x,y)
 	  Actions act=new Actions(driver);
-	  act.moveToElement(ele).dragAndDropBy(ele, 70, 100).build().perform();
+	  act.moveToElement(ele).dragAndDropBy(ele,70,100).build().perform();
 	  
 	  
 	  

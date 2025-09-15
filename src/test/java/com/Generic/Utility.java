@@ -10,6 +10,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 
+import javax.imageio.ImageIO;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
@@ -21,8 +23,33 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
+
 public class Utility 
 {
+	public static void fullPageScreenshot(WebDriver driver,String fname)
+	{
+		//timestamp
+		  String timestamp=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+		  
+		  //full page
+		  Screenshot shot=new AShot()
+		  .shootingStrategy(ShootingStrategies.viewportPasting(100))
+		  .takeScreenshot(driver);
+		  
+		  //path of folder
+		  File dest=new File(System.getProperty("user.dir")+"//Screenshots//"+fname+timestamp+".png");
+		  
+		  try {
+			ImageIO.write(shot.getImage(),"PNG",dest);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		  
+	}
 	
 	public static void getScreenshot(WebDriver driver,String fileName)
 	{
