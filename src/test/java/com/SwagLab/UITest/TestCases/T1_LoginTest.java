@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import com.SwagLab.UITest.Base.BaseClass;
 import com.SwagLab.UITest.Utilities.ExcelUtil;
+import com.aventstack.chaintest.plugins.ChainTestListener;
 
 
 public class T1_LoginTest extends BaseClass
@@ -16,6 +17,7 @@ public class T1_LoginTest extends BaseClass
   @Test(priority=1)
   public void varifyUrl() 
   {
+	  ChainTestListener.log("Varify URL of Application...");
 	  String actUrl=lp.getAppUrl();
 	  String expUrl=prop.getData("homepageUrl");
 	  Assert.assertTrue(actUrl.contains(expUrl),"Url not matched!");
@@ -25,6 +27,7 @@ public class T1_LoginTest extends BaseClass
   @Test(priority=2)
   public void varifyTitle() 
   {
+	  ChainTestListener.log("Varify Title of Application...");
 	  String actTitle=lp.getAppTitle();
 	  String expTitle=prop.getData("homepageTitle");
 	  Assert.assertEquals(actTitle,expTitle,"Title not mathced!");
@@ -42,6 +45,7 @@ public class T1_LoginTest extends BaseClass
 	  //assertion
 	  Assert.assertTrue(lp.getAppUrl().contains("inventory.html"),"Login Fail!");
 	  System.out.println("Login Completed!");
+	  ChainTestListener.log("Login is completed...");
 	  
   }
 }
