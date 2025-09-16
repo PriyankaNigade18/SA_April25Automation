@@ -1,23 +1,146 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<title>TestNG Report</title>
-<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
-</head>
-<body>
-<table>
-<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">4,142</td><td></td><td></td></tr>
-</table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.WebTesting.TestNG.TestListener.TestCRMApp</td><td><a href="#m0">testLogin</a></td><td rowspan="1">1757990109663</td><td rowspan="1">179</td></tr><tr class="failedeven"><td><a href="#m1">testLogout</a></td><td rowspan="1">1757990110045</td><td rowspan="1">15</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.WebTesting.TestNG.TestListener.TestCRMApp</td><td><a href="#m2">testSignInLink</a></td><td rowspan="1">1757990108799</td><td rowspan="1">853</td></tr></tbody>
-</table>
-<h2>Default test</h2><h3 id="m0">com.WebTesting.TestNG.TestListener.TestCRMApp#testLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#submit\-Button&quot;}
+
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>ChainTest</title>
+    <style type="text/css">
+      body { font-family: -apple-system, system-ui, "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 13px; }
+      .bg-passed { background-color: rgb(168, 217, 167); }
+      .text-passed { color: #79B530; }
+      .bg-failed,.bg-undefined { background-color: rgb(254, 205, 204); }
+      .text-failed,.text-undefined { color: #e64b5d; }
+      .bg-skipped { background-color: #eee; }
+      .text-skipped { color: #e6e04c; }
+      .tag { background-color:#f6f7f9; }
+      pre {white-space: pre-wrap; margin-bottom: 0; max-height: 15rem; overflow-y: auto; }
+    </style>
+  </head>
+  <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" yahoo="fix" bgcolor="#F7F8F9" style="box-sizing:border-box;margin:0;padding:0;width:100%;word-break:break-word;-webkit-font-smoothing:antialiased;">
+    <!-- title -->
+    <table class="wrapper" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+      <tr>
+        <td align="center">
+          <table>
+            <tr>
+              <td width="650">
+                <table style="padding: 20px;">
+                  <tr>
+                    <td>
+                      <span class="bg-failed" style="margin-right:10px;padding:0px 5px;">FAILED</span>
+                      <span style="">16-Sept-2025, 8:05:05 am &middot; 5s</span>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!-- stats -->
+    <table align="center" width="650" style="margin-bottom:2px;">
+	  <tbody>
+	    <tr>
+	      <td align="center" bgcolor="#FFFFFF">
+	        <table width="100%">
+	          <tbody>
+	            <tr>
+	              <td width="100" style="padding:30px 40px 20px;">
+	                <p style="font-weight:500;color:#7E7E7E;margin:0;">Tests</p>
+	                <h1 style="font-size:34px;">3</h1>
+	              </td>
+                <td width="100" style="padding:30px 40px 20px;">
+	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#79B530">Passed</p>
+	                <h1 style="font-size:34px;">1</h1>
+	              </td>
+                <td width="100" style="padding:30px 40px 20px;">
+	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#e64b5d">Failed</p>
+	                <h1 style="font-size:34px;">2</h1>
+	              </td>
+                <td width="100" style="padding:30px 40px 20px;">
+	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#e6e04c">Skipped</p>
+	                <h1 style="font-size:34px;">0</h1>
+	              </td>
+	            </tr>
+	          </tbody>
+	        </table>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+    <!-- tags -->
+    <table width="100%">
+      <tr>
+        <td align="center">
+          <table width="650">
+            <tr>
+              <td bgcolor="#FFFFFF" style="padding:20px 40px;font-size:14px;">
+                <span style="font-size:15px;font-weight:500;">Tags</span>
+                <table><tr><td style="height:10px;"></td></tr></table>
+                <table>
+                  <tr style="font-weight:500;">
+                    <td width="250">Name</td>
+                    <td width="23"></td>
+                    <td style="" width="60">Pass</td>
+                    <td class="padding" width="10"></td>
+                    <td style="" width="60">Fail</td>
+                    <td class="padding" width="10"></td>
+                    <td style="" width="60">Skip</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!-- tests -->
+    <table width="100%">
+      <tr>
+        <td align="center">
+          <table width="650">
+            <tr>
+              <td bgcolor="#FFF" style="padding:10px 20px;">
+                <table>
+                  <tr>
+                    <td width="650px" style="padding:10px;">
+                      <p class="text-failed" style="font-size:14px;font-weight:500;margin:0;margin-bottom:5px;">
+                        Default suite
+                      <p style="font-size:12px;margin:0;">
+                        <span>16-Sept-2025, 8:05:05 am / 4s</span>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
+                      <p style="font-size:13px;margin:0;">
+                        com.WebTesting.TestNG.TestListener.TestCRMApp
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        testSignInLink
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        testLogin
+<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#submit\-Button"}
   (Session info: MicrosoftEdge=140.0.3485.66)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [d60ca1cd859a0ef6c55a99438e556649, findElement {using=id, value=submit-Button}]
 Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58962}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\piyun\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58962/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
@@ -63,12 +186,19 @@ Session ID: d60ca1cd859a0ef6c55a99438e556649
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.WebTesting.TestNG.TestListener.TestCRMApp#testLogout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign Out&quot;}
+</pre>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        testLogout
+<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign Out"}
   (Session info: MicrosoftEdge=140.0.3485.66)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [d60ca1cd859a0ef6c55a99438e556649, findElement {using=link text, value=Sign Out}]
 Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58962}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\piyun\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58962/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
@@ -114,7 +244,18 @@ Session ID: d60ca1cd859a0ef6c55a99438e556649
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.WebTesting.TestNG.TestListener.TestCRMApp#testSignInLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-</body>
+</pre>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr><td style="height:10px"></td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table><tr><td height="100"></td></tr></table>
+  </body>
 </html>

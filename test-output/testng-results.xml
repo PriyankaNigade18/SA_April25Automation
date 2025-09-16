@@ -2,20 +2,31 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-15T08:39:31 IST" name="Suite" finished-at="2025-09-15T08:39:37 IST" duration-ms="5546">
+  <suite started-at="2025-09-16T08:05:05 IST" name="Default suite" finished-at="2025-09-16T08:05:10 IST" duration-ms="4142">
     <groups>
     </groups>
-    <test started-at="2025-09-15T08:39:31 IST" name="Test" finished-at="2025-09-15T08:39:37 IST" duration-ms="5546">
+    <test started-at="2025-09-16T08:05:05 IST" name="Default test" finished-at="2025-09-16T08:05:10 IST" duration-ms="4142">
       <class name="com.WebTesting.TestNG.TestListener.TestCRMApp">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@4a07d605]" started-at="2025-09-15T08:39:31 IST" name="setup" finished-at="2025-09-15T08:39:34 IST" duration-ms="2792" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@7b02881e]" started-at="2025-09-16T08:05:06 IST" name="setup" finished-at="2025-09-16T08:05:08 IST" duration-ms="2771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSignInLink()[pri:1, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@4a07d605]" started-at="2025-09-15T08:39:34 IST" name="testSignInLink" finished-at="2025-09-15T08:39:37 IST" duration-ms="2496" status="PASS">
+        <test-method signature="testSignInLink()[pri:1, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@7b02881e]" started-at="2025-09-16T08:05:08 IST" name="testSignInLink" finished-at="2025-09-16T08:05:09 IST" duration-ms="853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignInLink -->
-        <test-method signature="testLogin()[pri:2, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@4a07d605]" started-at="2025-09-15T08:39:37 IST" name="testLogin" finished-at="2025-09-15T08:39:37 IST" duration-ms="199" status="FAIL">
+        <test-method is-config="true" signature="getScreenshot(org.testng.ITestResult)[pri:0, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@7b02881e]" started-at="2025-09-16T08:05:09 IST" name="getScreenshot" finished-at="2025-09-16T08:05:09 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignInLink status=SUCCESS method=TestCRMApp.testSignInLink()[pri:1, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@7b02881e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshot -->
+        <test-method signature="testLogin()[pri:2, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@7b02881e]" started-at="2025-09-16T08:05:09 IST" name="testLogin" finished-at="2025-09-16T08:05:09 IST" duration-ms="179" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#submit\-Button"}
@@ -24,9 +35,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [821dd5fa6e1376e0ac5d7920c9c154b9, findElement {using=id, value=submit-Button}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51926}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\piyun\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51926/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 821dd5fa6e1376e0ac5d7920c9c154b9]]>
+Command: [d60ca1cd859a0ef6c55a99438e556649, findElement {using=id, value=submit-Button}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58962}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\piyun\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58962/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d60ca1cd859a0ef6c55a99438e556649]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#submit\-Button"}
@@ -35,9 +46,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [821dd5fa6e1376e0ac5d7920c9c154b9, findElement {using=id, value=submit-Button}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51926}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\piyun\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51926/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 821dd5fa6e1376e0ac5d7920c9c154b9
+Command: [d60ca1cd859a0ef6c55a99438e556649, findElement {using=id, value=submit-Button}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58962}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\piyun\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58962/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d60ca1cd859a0ef6c55a99438e556649
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -52,7 +63,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at com.WebTesting.TestNG.TestListener.TestCRMApp.testLogin(TestCRMApp.java:26)
+at com.WebTesting.TestNG.TestListener.TestCRMApp.testLogin(TestCRMApp.java:32)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -85,7 +96,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogout()[pri:3, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@4a07d605]" started-at="2025-09-15T08:39:37 IST" name="testLogout" finished-at="2025-09-15T08:39:37 IST" duration-ms="18" status="FAIL">
+        <test-method is-config="true" signature="getScreenshot(org.testng.ITestResult)[pri:0, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@7b02881e]" started-at="2025-09-16T08:05:09 IST" name="getScreenshot" finished-at="2025-09-16T08:05:10 IST" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=FAILURE method=TestCRMApp.testLogin()[pri:2, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@7b02881e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshot -->
+        <test-method signature="testLogout()[pri:3, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@7b02881e]" started-at="2025-09-16T08:05:10 IST" name="testLogout" finished-at="2025-09-16T08:05:10 IST" duration-ms="15" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign Out"}
@@ -94,9 +116,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [821dd5fa6e1376e0ac5d7920c9c154b9, findElement {using=link text, value=Sign Out}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51926}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\piyun\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51926/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 821dd5fa6e1376e0ac5d7920c9c154b9]]>
+Command: [d60ca1cd859a0ef6c55a99438e556649, findElement {using=link text, value=Sign Out}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58962}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\piyun\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58962/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d60ca1cd859a0ef6c55a99438e556649]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign Out"}
@@ -105,9 +127,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [821dd5fa6e1376e0ac5d7920c9c154b9, findElement {using=link text, value=Sign Out}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51926}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\piyun\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51926/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 821dd5fa6e1376e0ac5d7920c9c154b9
+Command: [d60ca1cd859a0ef6c55a99438e556649, findElement {using=link text, value=Sign Out}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58962}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\piyun\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58962/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d60ca1cd859a0ef6c55a99438e556649
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -122,7 +144,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at com.WebTesting.TestNG.TestListener.TestCRMApp.testLogout(TestCRMApp.java:33)
+at com.WebTesting.TestNG.TestListener.TestCRMApp.testLogout(TestCRMApp.java:42)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -155,7 +177,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="getScreenshot(org.testng.ITestResult)[pri:0, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@7b02881e]" started-at="2025-09-16T08:05:10 IST" name="getScreenshot" finished-at="2025-09-16T08:05:10 IST" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogout status=FAILURE method=TestCRMApp.testLogout()[pri:3, instance:com.WebTesting.TestNG.TestListener.TestCRMApp@7b02881e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshot -->
       </class> <!-- com.WebTesting.TestNG.TestListener.TestCRMApp -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
