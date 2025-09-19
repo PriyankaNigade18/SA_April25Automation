@@ -6,8 +6,9 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/FeatureFiles/Google.feature",
-			glue="com.stepdef")
-public class GoogleRunner {
+@CucumberOptions(features="src/test/resources/FeatureFiles/Swaglab.feature",
+				glue="com.stepdef",
+				publish=true)
+public class SwagLabRunner {
 
 }
