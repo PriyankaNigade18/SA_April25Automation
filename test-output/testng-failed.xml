@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.RestApiBasics.T5_FirstBDDTest">
+      <class name="com.RestApiBasics.T12_Authentication_Authorization">
         <methods>
-          <include name="SingleObjectTest"/>
+          <include name="useBearerToken"/>
         </methods>
-      </class> <!-- com.RestApiBasics.T5_FirstBDDTest -->
+      </class> <!-- com.RestApiBasics.T12_Authentication_Authorization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
